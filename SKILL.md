@@ -57,6 +57,12 @@ Read [references/argument-and-proof.md](references/argument-and-proof.md) when r
 
 ## 3. Repair the exposition at the level that is needed
 
+### Global rule for theorem statements and definitions
+
+Keep theorem statements as short as their precise content allows. When the conclusions form a progression and the final conclusion subsumes the earlier ones, state only the final conclusion in the theorem. If an intermediate conclusion is independently important, give it a separate lemma and its proof at the appropriate point in the argument. Routine intermediate steps belong in the proof. Preserve necessary hypotheses, quantifiers, parameter dependence and qualifications; do not discard a distinct conclusion that the final one does not imply merely to shorten the statement.
+
+Do not put definitions inside theorem statements, including introduction restatements. Introduce all required definitions separately, before the result, using `:=` for symbolic definitions. Put an important definition in its own `\begin{definition}...\end{definition}` environment; a short auxiliary definition may stand in ordinary prose or display math outside the theorem. Keep definitions separate from lemma and proposition statements as well. Quantifying an arbitrary object under stated hypotheses, or asserting existence of an object as the theorem's conclusion, is not itself a definitional assignment. After moving a definition, retain its domain, dependencies and any existence or uniqueness justification needed to make it well-defined. Apply this rule to individual result edits as well as whole manuscripts.
+
 Make the relationship between adjacent claims explicit. A reader should understand why the next definition, estimate, example, or case is needed.
 
 - Replace a generic importance paragraph with the actual question and the concrete limitation of existing work, when supplied.
@@ -95,6 +101,7 @@ Compare the revision with the source, not just with how fluent the revision soun
 6. For a complete paper, is the abstract at most five short sentences, followed by the contents; does the introduction contain a relevant figure and accurate theorem restatements with body numbers; are the main results collected in one subsection in body-section order, with each section using only the subdivisions its content needs rather than a fixed count; and is the main theorem followed by a checked, concrete worked calculation?
 7. Does the introduction engage the reader with a concrete starting point, connect it to the paper's question, orient the reader before stating results, and accurately describe any Lean formalisation? Has the final LaTeX source in the edited scope been checked for `\boxed` and other presentational formula frames, including inherited formulas and theorem restatements?
 8. Are the core models formally defined before use, body theorems adjacent to their proofs, and local headings and example counters consistent with the argument? Does every symbolic assignment use `:=`, with identities and characterising equations still using `=`?
+9. Does each theorem state its final substantive conclusion concisely, with independently important intermediate conclusions moved to lemmas? Are all definitions outside result statements, using `:=` where symbolic and a Definition environment when important, with hypotheses and well-definedness preserved?
 
 Check touched LaTeX cross-references or compile when the source and suitable tools are available and the change warrants it. Report only checks actually performed. A successful compile does not verify mathematics.
 
