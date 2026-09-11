@@ -30,7 +30,9 @@ Delete promotional wording when it contributes no scientific information. Do not
 
 ## Control notation without erasing it
 
-Before introducing a symbol, identify its benefit to the reader. A meaningful recurring object may deserve a name. A one-use alias for an already legible expression usually does not. Do not remove useful existing definitions just because the source uses many symbols.
+Before introducing a symbol, ask whether it represents a necessary mathematical object or merely shortens an expression. A short expression with no fraction and only a few letters or operations should be written directly. Do not use a new symbol just to abbreviate `\lambda p`, `1-p`, or a similarly small expression, even if it occurs repeatedly. This is a global preference for statements, exposition and proofs, not merely a restriction on one-use aliases.
+
+Minimise intermediate variables in proofs. Prefer showing the calculation with its original quantities over assignments whose only purpose is to carry a short intermediate expression to the next line. Review existing aliases as well as new ones. Retain a parameter varied independently, a bound variable, or a constructed object when its mathematical role requires notation; do not erase that role simply because one formula for it is short. Conversely, having a fraction or a long formula is not by itself a reason to introduce a name.
 
 When simplifying notation, compare every use and dependency. In particular, a constant may depend on a point while remaining independent of the scale. Cosmetic renaming must not conceal this difference.
 
