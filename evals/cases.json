@@ -7,7 +7,8 @@
       "State the almost-sure exponential growth result as proved.",
       "Keep distributional convergence as suggested by computations, not established.",
       "Retain the supplied mechanism without inventing details.",
-      "Remove the universal claim and explain that substantive removal."
+      "Remove the universal claim and explain that substantive removal.",
+      "Use at most five concise sentences; do not compress an oversized abstract into long clause chains."
     ]
   },
   {
@@ -84,6 +85,28 @@
       "Keep general termination unproved.",
       "State the supplied research question.",
       "Invent no running times, named prior work, comparisons or theorem."
+    ]
+  },
+  {
+    "id": "E9",
+    "task": "Use $humanize-scientific-writing-neroli to plan a substantive revision of this complete mathematical paper and supply the introduction restatement in LaTeX. Do not invent the missing source text or a figure asset.",
+    "input": "The paper has a seven-sentence abstract, no contents, and an introduction that says only \"Theorem 2.4 proves convergence.\" The body Theorem 2.4, labelled thm:convergence, states: For every x in S, f_n(x) tends to zero as n tends to infinity. Uniform convergence is not claimed. Section 2 has seven subsections: Model, Notation, Main theorem, First estimate, Second estimate, Completion of proof, Consequences. The process runs on the undirected diamond hierarchical lattice. No image file is supplied.",
+    "criteria": [
+      "Plan an abstract of at most five concise sentences and contents immediately after it.",
+      "Restate the actual pointwise theorem, using a forward reference to thm:convergence rather than a new introduction theorem counter or a hard-coded number.",
+      "Do not upgrade pointwise convergence to uniform convergence.",
+      "Plan a mathematically faithful DHL figure in the introduction, including its undirected interpretation; do not pretend a missing asset was supplied or rendered.",
+      "Group Section 2 into normally no more than three coherent subsections; keep estimates and proof steps rather than merely demoting all seven headings."
+    ]
+  },
+  {
+    "id": "E10",
+    "task": "Use $humanize-scientific-writing-neroli for a light edit of this excerpt only. Preserve its structure.",
+    "input": "\\subsection{The final estimate}\\label{sec:final-estimate}\nThe estimate follows from Lemma~\\ref{lem:bound}. It also complete the proof.",
+    "criteria": [
+      "Correct complete to completes while retaining the subsection, label and reference.",
+      "Do not add an abstract, contents, figure or theorem restatement to this excerpt.",
+      "Do not claim that the whole manuscript meets the subsection limit or that the unavailable lemma was checked."
     ]
   }
 ]

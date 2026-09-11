@@ -14,6 +14,32 @@ This is a relationship between ideas, not a mandatory section order. A reader ma
 
 The explanation of a hypothesis should say what breaks without it. If the supplied argument does not establish necessity, describe where the hypothesis is used instead of calling it necessary. Separate convenience of presentation from mathematical necessity.
 
+## Introduce the results under their body numbers
+
+Use the introduction to make the main results readable before their proofs. Set up the model and the required notation, state each selected main theorem with its body number, and explain what the statement settles. Do not replace its hypotheses with an appealing but stronger informal claim. Restate the actual result, not the proof; do not copy every technical lemma into the introduction.
+
+For LaTeX, a non-counting restatement environment can refer forward to the body's label:
+
+```latex
+\newenvironment{restated}[2]{%
+  \par\medskip\noindent\textbf{#1~\ref{#2}.}\itshape
+}{\par\medskip}
+% In the introduction, after the needed definitions:
+\begin{restated}{Theorem}{thm:main}
+  % The same mathematical statement as the body theorem.
+\end{restated}
+% Later in the body:
+\begin{theorem}\label{thm:main}
+  % The authoritative statement.
+\end{theorem}
+```
+
+Use the correct result kind, including Corollary or Conjecture. Share statement text where practical; otherwise compare the two versions for assumptions, quantifiers, constants and claim status. Do not duplicate label definitions or advance the theorem counter in the introduction. Compile enough times to resolve forward references and inspect the resulting numbers. The example specifies a numbering mechanism, not a required theorem or a source of mathematical content.
+
+Put a model figure near the relevant introduction passage. Explain what the vertices, edges, arrows or panels represent, especially if a construction uses directed replacement data but the studied process is undirected. Preserve source attribution where appropriate. A figure borrowed from an exemplar is suitable only when its model matches the new paper.
+
+Organise long sections by their mathematical jobs, such as model and main statement, estimates, and completion of the proof. The usual limit of three subsections and absolute limit of five govern structure, not proof length. Merge genuinely connected parts and write the transitions that the old headings were replacing. A small number of local proof steps may still be useful; a long substitute hierarchy is not a solution.
+
 ## Keep a compact record of the claim
 
 For a technical passage, track only the distinctions relevant to editing it:

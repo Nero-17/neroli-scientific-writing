@@ -18,6 +18,7 @@ The central habits are concrete:
 - Preserve the author's position while keeping proved, computed and conjectural claims distinct.
 - Avoid unnecessary abbreviation variables in mathematical proofs.
 - Return usable revised text, with separate notes only for substantive changes or unresolved issues.
+- Follow the author's paper structure: an abstract of at most five sentences, contents immediately afterwards, main theorem restatements with body numbers and a relevant figure in the introduction, and normally at most three subsections per section (never more than five).
 
 The skill is grounded most strongly in mathematics. Guidance for empirical science is explicitly an editorial extension. “Human” describes the intended reader-facing quality; it does not certify unaided authorship or make claims about AI detectors.
 
@@ -72,7 +73,7 @@ No API key, executable script, network connection or private source is required 
 
 ## Evidence and validation
 
-The source corpus is [arXiv:2212.01987v4](https://arxiv.org/html/2212.01987v4) and [arXiv:2603.13798v3](https://arxiv.org/html/2603.13798v3), together with the commissioning author's explicit preference about unnecessary proof abbreviations. This repository contains original instructions and synthetic examples, not copies of the papers or private personal-style records.
+The source corpus is [arXiv:2212.01987v4](https://arxiv.org/html/2212.01987v4) and [arXiv:2603.13798v3](https://arxiv.org/html/2603.13798v3), together with the commissioning author's explicit preferences about proof notation and manuscript structure. This repository contains original instructions and synthetic examples, not copies of the papers or private personal-style records.
 
 See the evidence file for the parts examined and the distinctions between observations and editorial design. See [the initial evaluation record](evals/initial-review.md) for what was actually checked. The examples and initial review are not a blind study, a measure of author similarity, or a guarantee of mathematical correctness.
 

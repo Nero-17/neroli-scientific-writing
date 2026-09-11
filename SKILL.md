@@ -23,6 +23,16 @@ Infer the audience, genre, requested language, source format, and permitted dept
 
 If the input is an entire manuscript, inspect its overall structure, main claims, standing assumptions and notation before revising sections. Keep terminology and dependencies consistent across sections. If only an excerpt is available, work locally and state only material limitations; do not pretend to have checked the rest.
 
+### Author's manuscript structure
+
+Apply these explicit author preferences when drafting or substantively revising a complete paper. Apply the relevant rule to an abstract or introduction supplied alone; do not invent missing sections, results or assets for an excerpt. An explicit light-edit contract or the user's current instructions take precedence.
+
+1. **Keep the abstract short: at most five sentences.** State the question and actual main conclusions; do not evade the limit with long sentences or a list of clauses.
+2. **Restate the main theorems in the introduction under their original body numbers.** Include the statements themselves, not merely a list of references or informal claims. Use cross-references to the body labels, with the necessary definitions and hypotheses available to the reader. Preserve the exact mathematical content and the distinction between theorems and conjectures. See the LaTeX pattern in [references/argument-and-proof.md](references/argument-and-proof.md).
+3. **Put a relevant figure in the introduction.** It should explain the model or construction: for example, a diamond hierarchical lattice when introducing an edge iterated graph system. Generate a mathematically faithful diagram or reuse an authorised source figure. Introduce it in the prose, provide a useful caption, and check its labels, file and rendered appearance. Do not insert a decorative or scientifically unrelated image.
+4. **Place the table of contents immediately after the abstract.** In a complete LaTeX paper, put `\tableofcontents` after `\end{abstract}` and before the introduction.
+5. **Use at most three subsections per section as the normal target, and never more than five.** Group the argument into a few coherent parts; use four or five only when the mathematical organisation needs them. Do not satisfy the count by mechanically demoting every old heading. Preserve necessary proofs and transitions while removing needless fragmentation.
+
 ## 2. Recover the argument before changing the wording
 
 Identify the central question, relevant prior result, specific obstruction, proposed mechanism, conclusion, and remaining limitation, wherever present. This is a compact working outline, not a compulsory report or six-paragraph template.
@@ -62,6 +72,7 @@ Compare the revision with the source, not just with how fluent the revision soun
 3. Are proof steps and transitions justified rather than merely asserted?
 4. Does each new symbol, paragraph, and structural change help the reader?
 5. Do notation, cross-references, numerical values and claim status agree across the edited scope?
+6. For a complete paper, is the abstract at most five short sentences, followed by the contents; does the introduction contain a relevant figure and accurate theorem restatements with body numbers; and does every section meet the subsection limits?
 
 Check touched LaTeX cross-references or compile when the source and suitable tools are available and the change warrants it. Report only checks actually performed. A successful compile does not verify mathematics.
 
