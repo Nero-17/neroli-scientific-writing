@@ -10,7 +10,7 @@ When the source supports it, organise the exposition around a progression such a
 
 > existing result -> remaining obstruction -> construction or estimate that resolves it -> resulting statement -> use or unresolved extension
 
-This is a relationship between ideas, not a mandatory section order. A reader may need an informal construction and an early theorem statement before the technical definitions. Preserve that arrangement if it works. A short result does not need a miniature literature review.
+This is a relationship between ideas, not a mandatory section order. An introduction can give an informal construction and restate a main result before the body develops the technical details. In the body, follow the author's preference for stating the theorem only once its prerequisites are available and then proving it immediately. A short result does not need a miniature literature review.
 
 The explanation of a hypothesis should say what breaks without it. If the supplied argument does not establish necessity, describe where the hypothesis is used instead of calling it necessary. Separate convenience of presentation from mathematical necessity.
 
@@ -73,6 +73,8 @@ Keep this record small and internal unless the user requests a diagnostic. It mu
 
 Find the endpoint and the indispensable intermediate steps. Keep assumptions and definitions available before they are used. Move explanatory prose where it prepares the difficult step, rather than collecting all explanation in a preamble.
 
+For a subsection that constructs a bound, distinguish the argument that the bound exists from the argument that a finite computation evaluates it. If these are separate mathematical tasks, an unnumbered local heading for each can make the progression clear. Continuity or monotonicity needed for existence must be proved there, or cited from an earlier result; a later finite formula cannot silently supply them. State each central conclusion as a theorem when warranted and put its proof next to the statement. In the body the usual order is prerequisites, theorem, proof, worked example. The introduction's numbered restatements remain the explicit overview exception.
+
 A useful proof opening can identify the reduction or the estimate that remains. For a two-sided bound, state which construction gives each direction; check inclusion, monotonicity and inequality directions. For an existence-and-uniqueness result, ensure the argument actually establishes both. For a statement about all scales, ensure constants do not accidentally depend on the scale.
 
 If a step is immediate from a displayed identity and a cited lemma, a short sentence is enough. If a step uses a nontrivial covering, flow construction, compactness argument, or passage to a limit, retain the mechanism that makes it valid. Replacing it with “standard” is not an improvement.
@@ -85,11 +87,15 @@ If a structural revision crosses several results, compare both the theorem state
 
 Explain the role of a new object near its definition. An interpretation should identify what it measures or makes possible, not translate every symbol back into words. Use a familiar object when it is genuinely the same one; separate objects that share notation but differ mathematically.
 
+Give the main model a numbered Definition after its underlying space or construction has been introduced. Auxiliary models need their own precise definition before their first use when changed dynamics, source conventions or boundary rules matter to the argument. Use `:=` for symbolic definitions; a condition such as `f(x)=a` remains an equality even when it uniquely characterises a root. Do not mistake a proved formula for a definition or introduce dispensable notation to satisfy a typographical rule.
+
 Prefer the smallest example that performs a needed job. A counterexample may explain why a tempting shortcut fails. A worked construction may show how an abstract definition is evaluated. A numerical check illustrates behaviour under the reported conditions; it does not prove the general theorem.
 
 After the main theorem, work through a concrete admissible instance: specify the object and parameters, compute the theorem's inputs, carry out the resulting finite calculation, and explain the output. For a critical-density representation, for example, evaluate a finite-cell probability and its root, identifying that root as a bound if the theorem says it is a bound. Verify algebra and any numerical values; do not present a finite approximation as the limiting answer. A compact calculation after an introduction restatement may point to the full example after the body theorem. This author preference does not require new examples after every technical lemma, and it does not override an explicit light-edit contract.
 
 Preserve an example already doing this work. Do not insert a favourite graph, metaphor or counterexample from the exemplar papers into unrelated science.
+
+An appendix consisting of a directly relevant calculation can instead become an example beside the general theorem it illustrates. Share the theorem counter with examples and preserve stable labels when moving them. Keep the theorem's general hypotheses separate from the example's special geometry; placing a special case in the body must not silently narrow the surrounding result.
 
 ## End a section with what has changed
 
