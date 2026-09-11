@@ -36,9 +36,9 @@ When simplifying notation, compare every use and dependency. In particular, a co
 
 ## Display formulas without boxes
 
-Do not use a frame to emphasise a formula: avoid `\boxed{...}`, `\fbox{...}`, `\framebox{...}`, and framed or coloured equation containers. Use ordinary display math, `equation`, or `align` as appropriate. Make the formula's importance clear through its placement and the surrounding explanation.
+Never use `\boxed{...}` to display a manuscript formula. Do not use a substitute frame to emphasise it: avoid `\fbox{...}`, `\framebox{...}`, and framed or coloured equation containers. Use ordinary display math, `equation`, or `align` as appropriate. Make the formula's importance clear through its placement and the surrounding explanation.
 
-When editing existing boxed mathematics, remove only the presentational wrapper. Preserve grouping, mathematical content, numbering, labels and cross-references; repair the surrounding math environment if the wrapper supplied it. Do not indiscriminately delete commands containing "box": a box operator used as mathematical notation and the QED marker are not equation frames.
+Apply this rule to inherited formulas and restated theorems as well as newly written text. When asked to remove boxes from a paper, check the whole manuscript. When editing existing boxed mathematics, remove only the presentational wrapper. Preserve grouping, mathematical content, numbering, labels and cross-references; repair the surrounding math environment if the wrapper supplied it. Do not indiscriminately delete commands containing "box": a box operator used as mathematical notation and the QED marker are not equation frames.
 
 ## Translate meaning and register
 

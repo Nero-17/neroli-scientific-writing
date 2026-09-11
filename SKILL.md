@@ -73,7 +73,7 @@ Remove repetitive promotion, empty transitions, needless nominalisations, and ex
 
 Keep LaTeX commands, mathematical environments, labels and citation keys intact unless the requested change requires an update. Follow an existing consistent spelling convention; British spelling is a tentative default for a new English draft, not a requirement for all authors or journals. Preserve the target language and register in translation, including the strength of a supplied judgement and the distinction between a fact, a conjecture and an intention. Do not add personal anecdotes, application rhetoric or correspondence flourishes to a paper.
 
-**Do not put formulas in boxes.** Use ordinary displayed or aligned mathematics, with equation numbers when useful. Remove presentational frames such as `\boxed`, `\fbox`, or framed equation containers in the edited scope while preserving the enclosed mathematics, labels and references. This does not remove a mathematical box operator or an end-of-proof symbol. See [references/language-and-rhythm.md](references/language-and-rhythm.md).
+**Do not use `\boxed` in manuscript text. Do not put formulas in boxes.** Use ordinary displayed or aligned mathematics, with equation numbers when useful. Remove presentational frames such as `\boxed`, `\fbox`, or framed equation containers in the edited scope while preserving the enclosed mathematics, labels and references. This does not remove a mathematical box operator or an end-of-proof symbol. See [references/language-and-rhythm.md](references/language-and-rhythm.md).
 
 ## 5. Compare and deliver
 
@@ -85,7 +85,7 @@ Compare the revision with the source, not just with how fluent the revision soun
 4. Does each new symbol, paragraph, and structural change help the reader?
 5. Do notation, cross-references, numerical values and claim status agree across the edited scope?
 6. For a complete paper, is the abstract at most five short sentences, followed by the contents; does the introduction contain a relevant figure and accurate theorem restatements with body numbers; does every section meet the subsection limits; and is the main theorem followed by a checked, concrete worked calculation?
-7. Does the introduction engage the reader with a concrete starting point, connect it to the paper's question, orient the reader before stating results, and accurately describe any Lean formalisation? Are formulas free of presentational boxes in the edited scope?
+7. Does the introduction engage the reader with a concrete starting point, connect it to the paper's question, orient the reader before stating results, and accurately describe any Lean formalisation? Has the final LaTeX source in the edited scope been checked for `\boxed` and other presentational formula frames, including inherited formulas and theorem restatements?
 
 Check touched LaTeX cross-references or compile when the source and suitable tools are available and the change warrants it. Report only checks actually performed. A successful compile does not verify mathematics.
 
