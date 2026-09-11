@@ -73,6 +73,8 @@ Explain the role of a new object near its definition. An interpretation should i
 
 Prefer the smallest example that performs a needed job. A counterexample may explain why a tempting shortcut fails. A worked construction may show how an abstract definition is evaluated. A numerical check illustrates behaviour under the reported conditions; it does not prove the general theorem.
 
+After the main theorem, work through a concrete admissible instance: specify the object and parameters, compute the theorem's inputs, carry out the resulting finite calculation, and explain the output. For a critical-density representation, for example, evaluate a finite-cell probability and its root, identifying that root as a bound if the theorem says it is a bound. Verify algebra and any numerical values; do not present a finite approximation as the limiting answer. A compact calculation after an introduction restatement may point to the full example after the body theorem. This author preference does not require new examples after every technical lemma, and it does not override an explicit light-edit contract.
+
 Preserve an example already doing this work. Do not insert a favourite graph, metaphor or counterexample from the exemplar papers into unrelated science.
 
 ## End a section with what has changed

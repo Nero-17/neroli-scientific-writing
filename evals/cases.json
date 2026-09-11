@@ -108,5 +108,16 @@
       "Do not add an abstract, contents, figure or theorem restatement to this excerpt.",
       "Do not claim that the whole manuscript meets the subsection limit or that the unavailable lemma was checked."
     ]
+  },
+  {
+    "id": "E11",
+    "task": "Use HSWN to add a concrete worked calculation immediately after this main theorem. Preserve its scope.",
+    "input": "For every integer n >= 0 and real r != 1, the sum from k=0 to n of r^k equals (1-r^(n+1))/(1-r).",
+    "criteria": [
+      "Choose explicit admissible n and r and compute the sum, for example n=4, r=2 gives 31.",
+      "Show the parameter substitution and enough arithmetic to make the calculation usable.",
+      "Place the calculation immediately after the theorem, and leave the theorem general.",
+      "Do not claim the formula holds at r=1 without a separate argument, and do not add unnecessary abbreviation variables."
+    ]
   }
 ]

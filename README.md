@@ -17,6 +17,7 @@ The central habits are concrete:
 - Put explanation where the reasoning is difficult; leave immediate arguments short.
 - Preserve the author's position while keeping proved, computed and conjectural claims distinct.
 - Avoid unnecessary abbreviation variables in mathematical proofs.
+- Follow the main theorem with a concrete worked calculation, showing how its quantities are evaluated and what the result means.
 - Return usable revised text, with separate notes only for substantive changes or unresolved issues.
 - Follow the author's paper structure: an abstract of at most five sentences, contents immediately afterwards, main theorem restatements with body numbers and a relevant figure in the introduction, and normally at most three subsections per section (never more than five).
 

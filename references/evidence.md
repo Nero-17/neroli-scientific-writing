@@ -52,3 +52,7 @@ The author requested a paper-only public skill under the name `humanize-scientif
 The author explicitly requested five rules: an abstract of no more than five sentences; main theorem statements repeated in the introduction using their body numbers; a relevant model figure in the introduction; a table of contents immediately after the abstract; and normally at most three, absolutely at most five subsections per section. These are author instructions, not statistical inferences from the two-paper corpus.
 
 The author also supplied a current revision of P2 as an introduction exemplar. Its abstract and introduction were inspected for organisation and typesetting: it uses a DHL figure and non-counting theorem restatements that refer to body labels. This additional reading was limited to exposition, not a proof audit. The public package records the reusable pattern and preferences, without distributing the private project URL, manuscript, figure or contact details. The short LaTeX example in the argument reference is newly constructed.
+
+## Author feedback on worked calculations, 2026-09-11
+
+The author requested that the main theorem be followed by a concrete calculation showing how to use it. This is an explicit author preference. The requirement to distinguish exact values, finite bounds and numerical approximations applies when constructing that calculation. The public rule records the preference without reproducing an unpublished manuscript or its numerical results.

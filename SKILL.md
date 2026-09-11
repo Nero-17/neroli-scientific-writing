@@ -33,6 +33,8 @@ Apply these explicit author preferences when drafting or substantively revising 
 4. **Place the table of contents immediately after the abstract.** In a complete LaTeX paper, put `\tableofcontents` after `\end{abstract}` and before the introduction.
 5. **Use at most three subsections per section as the normal target, and never more than five.** Group the argument into a few coherent parts; use four or five only when the mathematical organisation needs them. Do not satisfy the count by mechanically demoting every old heading. Preserve necessary proofs and transitions while removing needless fragmentation.
 
+6. **Follow the main theorem with a concrete worked calculation.** Choose a relevant nontrivial instance, substitute its parameters, and actually evaluate the quantities appearing in the theorem. Show the short derivation and explain what the computed value establishes. Merely naming an example or repeating the abstract formula is insufficient. When the theorem is restated in the introduction, give a compact calculation there and the full worked example after the body theorem. Keep the theorem general and label the example's special assumptions. Use only justified calculations, distinguish exact expressions, bounds and numerical approximations, and add no unnecessary proof abbreviations.
+
 ## 2. Recover the argument before changing the wording
 
 Identify the central question, relevant prior result, specific obstruction, proposed mechanism, conclusion, and remaining limitation, wherever present. This is a compact working outline, not a compulsory report or six-paragraph template.
@@ -72,7 +74,7 @@ Compare the revision with the source, not just with how fluent the revision soun
 3. Are proof steps and transitions justified rather than merely asserted?
 4. Does each new symbol, paragraph, and structural change help the reader?
 5. Do notation, cross-references, numerical values and claim status agree across the edited scope?
-6. For a complete paper, is the abstract at most five short sentences, followed by the contents; does the introduction contain a relevant figure and accurate theorem restatements with body numbers; and does every section meet the subsection limits?
+6. For a complete paper, is the abstract at most five short sentences, followed by the contents; does the introduction contain a relevant figure and accurate theorem restatements with body numbers; does every section meet the subsection limits; and is the main theorem followed by a checked, concrete worked calculation?
 
 Check touched LaTeX cross-references or compile when the source and suitable tools are available and the change warrants it. Report only checks actually performed. A successful compile does not verify mathematics.
 
