@@ -56,3 +56,9 @@ The author also supplied a current revision of P2 as an introduction exemplar. I
 ## Author feedback on worked calculations, 2026-09-11
 
 The author requested that the main theorem be followed by a concrete calculation showing how to use it. This is an explicit author preference. The requirement to distinguish exact values, finite bounds and numerical approximations applies when constructing that calculation. The public rule records the preference without reproducing an unpublished manuscript or its numerical results.
+
+## Author feedback on introductions and equation presentation, 2026-09-11
+
+The author requested an engaging opening that naturally leads to the paper's question, followed by background on the area's progress, main theorem statements with their body numbers, and a final Lean formalisation subsection. The author explicitly described this as an adaptable example, not an obligatory sequence or historical opening. The prohibition on formula boxes is also an explicit preference, not an inference from the corpus.
+
+The linked [paper's introduction](https://arxiv.org/html/2603.13798v3#S1) was read again for this update. It moves from a historical conjecture to a specific unresolved problem and the paper's purpose, followed by Background, the model, Main results and Formalisation by Lean. The final subsection distinguishes proved formal statements from external hypotheses. This reading supports the organisational example; no Lean code was audited or compiled. The rule requires each new manuscript's own evidence for its history and formalisation claims.

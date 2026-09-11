@@ -35,6 +35,14 @@ Apply these explicit author preferences when drafting or substantively revising 
 
 6. **Follow the main theorem with a concrete worked calculation.** Choose a relevant nontrivial instance, substitute its parameters, and actually evaluate the quantities appearing in the theorem. Show the short derivation and explain what the computed value establishes. Merely naming an example or repeating the abstract formula is insufficient. When the theorem is restated in the introduction, give a compact calculation there and the full worked example after the body theorem. Keep the theorem general and label the example's special assumptions. Use only justified calculations, distinguish exact expressions, bounds and numerical approximations, and add no unnecessary proof abbreviations.
 
+### Introduction: engage, orient, state, and document
+
+Open with something concrete that gives the reader a reason to continue: a sourced conjecture and its historical setting, a precise question, or another compelling mathematical starting point. Let that opening lead naturally to the unresolved question and explain what this paper does to answer it. Do not manufacture history, priority, or a complete solution where the paper provides only partial progress.
+
+A useful progression is **opening -> Background -> Main theorems -> Lean formalisation**. After the opening, give enough background on the field's progress and remaining obstacles to orient the reader. Introduce the model or necessary definitions where they help, then state the main theorems with their body numbers. Close the introduction with a Lean formalisation subsection when the paper has formalisation to describe; state its actual coverage and limitations. If that status is missing, flag it for the author rather than inventing a verification claim or a completed subsection.
+
+This is a flexible writing pattern, not a mandatory historical opening, set of titles, or fixed section count. Match heading levels to the manuscript: Background will usually be a `\subsection` within `\section{Introduction}`, but can be a separate section when the organisation calls for it. Read [references/argument-and-proof.md](references/argument-and-proof.md) for the progression and formalisation details. Respect the editing contract and the existing subsection guidance; an additional model subsection can justify four introduction subsections.
+
 ## 2. Recover the argument before changing the wording
 
 Identify the central question, relevant prior result, specific obstruction, proposed mechanism, conclusion, and remaining limitation, wherever present. This is a compact working outline, not a compulsory report or six-paragraph template.
@@ -65,6 +73,8 @@ Remove repetitive promotion, empty transitions, needless nominalisations, and ex
 
 Keep LaTeX commands, mathematical environments, labels and citation keys intact unless the requested change requires an update. Follow an existing consistent spelling convention; British spelling is a tentative default for a new English draft, not a requirement for all authors or journals. Preserve the target language and register in translation, including the strength of a supplied judgement and the distinction between a fact, a conjecture and an intention. Do not add personal anecdotes, application rhetoric or correspondence flourishes to a paper.
 
+**Do not put formulas in boxes.** Use ordinary displayed or aligned mathematics, with equation numbers when useful. Remove presentational frames such as `\boxed`, `\fbox`, or framed equation containers in the edited scope while preserving the enclosed mathematics, labels and references. This does not remove a mathematical box operator or an end-of-proof symbol. See [references/language-and-rhythm.md](references/language-and-rhythm.md).
+
 ## 5. Compare and deliver
 
 Compare the revision with the source, not just with how fluent the revision sounds:
@@ -75,6 +85,7 @@ Compare the revision with the source, not just with how fluent the revision soun
 4. Does each new symbol, paragraph, and structural change help the reader?
 5. Do notation, cross-references, numerical values and claim status agree across the edited scope?
 6. For a complete paper, is the abstract at most five short sentences, followed by the contents; does the introduction contain a relevant figure and accurate theorem restatements with body numbers; does every section meet the subsection limits; and is the main theorem followed by a checked, concrete worked calculation?
+7. Does the introduction engage the reader with a concrete starting point, connect it to the paper's question, orient the reader before stating results, and accurately describe any Lean formalisation? Are formulas free of presentational boxes in the edited scope?
 
 Check touched LaTeX cross-references or compile when the source and suitable tools are available and the change warrants it. Report only checks actually performed. A successful compile does not verify mathematics.
 

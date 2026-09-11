@@ -16,6 +16,20 @@ The explanation of a hypothesis should say what breaks without it. If the suppli
 
 ## Introduce the results under their body numbers
 
+### Shape the introduction around the question
+
+The opening should draw the reader into an actual mathematical problem. A dated conjecture with named authors is one option when the history and attribution are supported. A concrete question, example, or unresolved phenomenon can do the same work. Do not mechanically start every paper with a year or add an invented anecdote. Explain how the starting point leads to the present question, why that question is still open, and what the paper contributes. The transition should expose a logical connection, not merely insert the word "naturally".
+
+After the opening, a Background part gives the reader a useful picture of progress in the area: the relevant approaches, what they establish, and the obstacles that remain. Select literature to position this paper, rather than writing an exhaustive chronology or a list of names. Retain supplied citations; verify new historical claims or mark missing evidence rather than guessing. Keep the opening focused on the motivating problem and develop broader context here.
+
+Then present Main theorems (or Main results) with the body numbering, as described below. Supply the model and essential definitions before the statements; a dedicated model subsection between Background and Main results is appropriate when needed. Explain how the results answer the opening question, including what remains unresolved, and retain the worked calculation required by the author's profile.
+
+Finish with a Lean formalisation subsection when there is formalisation to report. Distinguish the statements encoded, the results actually proved, and inputs accepted as hypotheses. Cite the supplied repository or revision and report build status, tool attribution and dependency details only when supported. A conditional implication checked in Lean is not an unconditional verification of the paper or its external inputs. Do not copy the exemplar's coverage, tooling or claims about axioms into a different manuscript. If the requested outline includes this subsection but its content is unavailable, flag the missing status separately; do not fabricate code or completion, and do not start a formalisation project merely to fill the outline.
+
+Use this progression flexibly. Names and heading levels follow the actual document; Background is normally a subsection inside the Introduction, not necessarily a new top-level section. Combine or rearrange parts when that makes the argument clearer. A short passage or a light-edit request does not authorise adding the whole structure. Keep the opening as prose rather than requiring a subsection titled "Opening".
+
+### Preserve the theorem numbering
+
 Use the introduction to make the main results readable before their proofs. Set up the model and the required notation, state each selected main theorem with its body number, and explain what the statement settles. Do not replace its hypotheses with an appealing but stronger informal claim. Restate the actual result, not the proof; do not copy every technical lemma into the introduction.
 
 For LaTeX, a non-counting restatement environment can refer forward to the body's label:
