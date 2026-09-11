@@ -45,7 +45,7 @@ Use fresh drafts and the author's actual editing choices to improve the rules. R
 
 ## Scope consolidation, 2026-09-11
 
-The author requested a paper-only public skill under the name `humanize-scientific-writing-neroli`. The former local academic-writing reference was reviewed against this workflow: motivating gaps, purposeful examples, difficulty-dependent proof length, explicit light-edit and translation boundaries, correction notes, and the preference against unnecessary abbreviation variables are retained. Overlapping rules are expressed in the workflow and its existing references rather than duplicated in another guide. No additional paper was read for this consolidation. Non-paper personal style and its private provenance remain outside this package.
+The author requested a paper-only public skill under the name `neroli-scientific-writing`. The former local academic-writing reference was reviewed against this workflow: motivating gaps, purposeful examples, difficulty-dependent proof length, explicit light-edit and translation boundaries, correction notes, and the preference against unnecessary abbreviation variables are retained. Overlapping rules are expressed in the workflow and its existing references rather than duplicated in another guide. No additional paper was read for this consolidation. Non-paper personal style and its private provenance remain outside this package.
 
 ## Author feedback on manuscript structure, 2026-09-11
 

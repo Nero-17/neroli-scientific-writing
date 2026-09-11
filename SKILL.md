@@ -1,9 +1,9 @@
 ---
-name: humanize-scientific-writing-neroli
+name: neroli-scientific-writing
 description: "Rewrite scientific drafts, including AI-generated text, through an author-informed pipeline for argument, exposition, language, and final comparison. Use for substantive manuscript revision, proof exposition, introductions, abstracts, and translation of scientific manuscripts in Nero Ziyu Li's preferred style. Respect explicit light-edit requests. Do not activate for applications, research statements, emails, non-paper translation, ordinary scientific Q&A, or a proof-correctness review alone."
 ---
 
-# Humanize Scientific Writing — Neroli
+# Neroli Scientific Writing
 
 Turn a supplied draft into scientific prose whose reasoning a reader can follow: explain the problem, expose the obstruction, introduce what resolves it, and state what the result actually establishes. Preserve the author's scientific position and useful individual voice. Apply the stages below within the requested passage; do not impose their names or a fixed outline on the manuscript.
 

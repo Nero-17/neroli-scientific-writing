@@ -1,4 +1,4 @@
-# Humanize Scientific Writing — Neroli
+# Neroli Scientific Writing
 
 把科学稿件（包括 GPT 生成的稿件）按 Nero Ziyu Li 的论述逻辑、语言选择和写作偏好统一修改的 skill。
 
@@ -21,19 +21,19 @@
 ## 调用示例
 
 ```text
-用 $humanize-scientific-writing-neroli 修改下面这段 GPT 写的论文引言。
+用 $neroli-scientific-writing 修改下面这段 GPT 写的论文引言。
 可以调整论述顺序，按我的逻辑和语言重写；保留数学主张、记号和引用。
 先给我能直接放进论文的 LaTeX。
 ```
 
 ```text
-用 $humanize-scientific-writing-neroli 检查这段证明的表述。
+用 $neroli-scientific-writing 检查这段证明的表述。
 把真正困难的步骤解释清楚，不要增加非必要缩写变量。
 发现不能成立的推理时单独指出，不要用润色遮住它。
 ```
 
 ```text
-用 $humanize-scientific-writing-neroli 忠实翻译这段中文论文。
+用 $neroli-scientific-writing 忠实翻译这段中文论文。
 这次只做必要修改，保留原稿顺序和语气。
 ```
 
@@ -53,11 +53,11 @@
 ## 安装
 
 ```sh
-git clone https://github.com/Nero-17/humanize-scientific-writing-neroli.git ~/.agents/skills/humanize-scientific-writing-neroli
+git clone https://github.com/Nero-17/neroli-scientific-writing.git ~/.agents/skills/neroli-scientific-writing
 ```
 
 已有旧版 `humanize-scientific-writing` 时，安装后将旧目录移到 skill 发现目录之外，避免重复匹配。
 
-将整个目录放在个人 `~/.agents/skills/humanize-scientific-writing-neroli/`，或项目的 `.agents/skills/humanize-scientific-writing-neroli/`，保留 `SKILL.md` 与 `references/` 的相对位置。详见 [Codex 官方说明](https://learn.chatgpt.com/docs/build-skills)；新 skill 未显示时可重启 Codex。
+将整个目录放在个人 `~/.agents/skills/neroli-scientific-writing/`，或项目的 `.agents/skills/neroli-scientific-writing/`，保留 `SKILL.md` 与 `references/` 的相对位置。详见 [Codex 官方说明](https://learn.chatgpt.com/docs/build-skills)；新 skill 未显示时可重启 Codex。
 
 本仓库原创内容采用 [MIT 许可](LICENSE)，不改变所链接论文原有的版权与许可。
