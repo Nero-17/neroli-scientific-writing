@@ -19,8 +19,8 @@ The central habits are concrete:
 - Avoid unnecessary abbreviation variables in mathematical proofs.
 - Follow the main theorem with a concrete worked calculation, showing how its quantities are evaluated and what the result means.
 - Return usable revised text, with separate notes only for substantive changes or unresolved issues.
-- Follow the author's paper structure: an abstract of at most five sentences, contents immediately afterwards, main theorem restatements with body numbers and a relevant figure in the introduction, and normally at most three subsections per section (never more than five).
-- Give the introduction an engaging, concrete opening that leads to the paper's question, followed by orienting background, main theorems and an accurate Lean formalisation subsection where applicable. Adapt this progression to the content; a historical opening is an example, not a requirement.
+- Follow the author's paper structure: an abstract of at most five sentences, contents immediately afterwards, main theorem restatements with body numbers and a relevant figure in the introduction, and subdivisions chosen for the argument, without aiming for three subsections or matching counts across sections (never more than five).
+- Give the introduction an engaging, concrete opening that leads to the paper's question, followed by orienting background, a single Main results subsection presenting the results in body-section order, and an accurate Lean formalisation subsection where applicable. Adapt this progression to the content; a historical opening is an example, not a requirement.
 - Display formulas without boxes, preserving their mathematical content and references.
 
 The skill is grounded most strongly in mathematics. Guidance for empirical science is explicitly an editorial extension. “Human” describes the intended reader-facing quality; it does not certify unaided authorship or make claims about AI detectors.
