@@ -36,6 +36,10 @@ Minimise intermediate variables in proofs. Prefer showing the calculation with i
 
 When simplifying notation, compare every use and dependency. In particular, a constant may depend on a point while remaining independent of the scale. Cosmetic renaming must not conceal this difference.
 
+## Use display style for limits
+
+Every limit operator (`\lim`, `\liminf`, or `\limsup`) should be typeset in display style. Add `\displaystyle` to an inline formula containing a limit; displayed equations already have the appropriate style. This is a typographic rule, not a requirement that every limit appear on its own line. Keep a short limit within its sentence when that reads naturally, and use a separate display only when the formula or argument benefits. Preserve all conditions, punctuation and convergence qualifications.
+
 ## Display formulas without boxes
 
 Never use `\boxed{...}` to display a manuscript formula. Do not use a substitute frame to emphasise it: avoid `\fbox{...}`, `\framebox{...}`, and framed or coloured equation containers. Use ordinary display math, `equation`, or `align` as appropriate. Make the formula's importance clear through its placement and the surrounding explanation.
