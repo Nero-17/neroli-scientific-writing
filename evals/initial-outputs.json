@@ -1,0 +1,42 @@
+[
+  {
+    "id": "E1",
+    "revision": "We prove that the exponential growth rate of the resistance exists almost surely. The proof combines a moment bound with concentration of the logarithm. Computations also suggest convergence in distribution of the normalised resistance, but a distributional limit remains unproved.",
+    "note": "Removed the claim to resolve all dynamical questions: the supplied material establishes an exponential growth rate and reports a separate numerical suggestion."
+  },
+  {
+    "id": "E2",
+    "revision": "For every x in S, the theorem gives a constant C_x>0 such that |f_n(x)| <= C_x/n for all n>=1. Hence f_n(x) tends to zero at each point of S. This is the pointwise conclusion used in the next argument.",
+    "note": "The stated theorem does not establish uniform convergence on S, because C_x may depend on x."
+  },
+  {
+    "id": "E3",
+    "revision": "In this manuscript, \\(a_n\\asymp b_n\\) means that \\(a_n/b_n\\) converges to a finite positive constant. We have proved \\(a_n\\asymp b_n\\), so their ratio tends to a positive limit.",
+    "note": ""
+  },
+  {
+    "id": "E4",
+    "revision": "Independence alone does not justify interchanging the logarithm and expectation, so the equality of the two exponential rates has not been established by this argument. In the deterministic model, every multiplier equals 2, and the product is 2^n.",
+    "note": "For independent multipliers each equal to 1 or 4 with probability 1/2, E[log(X_1...X_n)] = n log 2, whereas log E[X_1...X_n] = n log(5/2). The rates differ."
+  },
+  {
+    "id": "E5",
+    "revision": "\\begin{lemma}\\label{lem:sum-bound}\nFor \\(n\\geq1\\), \\(\\sum_{j=1}^{n}2^j\\leq2^{n+1}\\).\n\\end{lemma}\n\\begin{proof}\nThe geometric sum formula \\cite{geometric-series-source} gives the result.\n\\end{proof}\nBy Lemma~\\ref{lem:sum-bound}, the estimate in \\eqref{eq:tail} follows.",
+    "note": ""
+  },
+  {
+    "id": "E6",
+    "revision": "This assumption is indeed strong, but it makes the difficulty in the proof explicit. We do not know whether it can be removed entirely; the present argument applies only in this restricted setting.",
+    "note": ""
+  },
+  {
+    "id": "E7",
+    "revision": "Since \\(A\\subseteq B\\) and \\(f\\geq0\\), monotonicity of the integral gives \\(\\int_A f\\,d\\mu\\leq\\int_B f\\,d\\mu\\).",
+    "note": ""
+  },
+  {
+    "id": "E8",
+    "revision": "Our algorithm terminated on all 20 finite graphs tested. We do not yet have a proof of termination for every finite graph. The question is which structural property governs termination.",
+    "note": ""
+  }
+]

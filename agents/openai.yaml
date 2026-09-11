@@ -1,0 +1,4 @@
+interface:
+  display_name: "Humanize Scientific Writing — Neroli"
+  short_description: "Revise scientific argument, exposition, and voice"
+  default_prompt: "Use $humanize-scientific-writing-neroli to revise the following scientific draft, improving its argument and language while preserving its claims and notation."

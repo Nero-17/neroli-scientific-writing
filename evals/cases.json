@@ -1,0 +1,89 @@
+[
+  {
+    "id": "E1",
+    "task": "Use $humanize-scientific-writing-neroli to rewrite this abstract for mathematical readers. You may reorganise it. Return the revised abstract and note substantive removals.",
+    "input": "We establish a revolutionary theory that resolves all questions about the dynamics of these graphs. Our computations suggest that the normalised resistance may converge in distribution. In the present paper we prove only that its exponential growth rate exists almost surely. The proof combines a bound on the moments with concentration of the logarithm. A distributional limit is not proved.",
+    "criteria": [
+      "State the almost-sure exponential growth result as proved.",
+      "Keep distributional convergence as suggested by computations, not established.",
+      "Retain the supplied mechanism without inventing details.",
+      "Remove the universal claim and explain that substantive removal."
+    ]
+  },
+  {
+    "id": "E2",
+    "task": "Use $humanize-scientific-writing-neroli to revise this theorem explanation without changing the theorem.",
+    "input": "The theorem states that for every x in S there is a constant C_x>0 such that |f_n(x)| <= C_x/n for every integer n>=1. Therefore f_n converges to zero uniformly on S. We use the theorem pointwise in the next argument.",
+    "criteria": [
+      "Preserve for every x, existence of C_x, and all n>=1.",
+      "Do not infer uniform convergence without a uniform bound on C_x.",
+      "Keep the pointwise downstream use.",
+      "Identify the substantive correction separately."
+    ]
+  },
+  {
+    "id": "E3",
+    "task": "Use $humanize-scientific-writing-neroli for a light edit. Preserve the manuscript's stated notation convention.",
+    "input": "In this manuscript, a_n \\asymp b_n means that a_n/b_n converges to a finite positive constant. We have proved a_n \\asymp b_n. Thus their ratio tend to a positive limit.",
+    "criteria": [
+      "Retain the given positive-limit meaning of asymp.",
+      "Correct the grammar without redefining asymp as mere comparability.",
+      "Do not add an unnecessary symbol for the limiting constant.",
+      "Do not insert a structural roadmap."
+    ]
+  },
+  {
+    "id": "E4",
+    "task": "Use $humanize-scientific-writing-neroli to improve this proof passage and separately flag any mathematical issue.",
+    "input": "Since X_1,...,X_n are independent positive random variables with finite support, E[log(X_1...X_n)] = log E[X_1...X_n]. Hence the two exponential rates agree. We next consider the deterministic model, in which every multiplier equals 2 and the product is 2^n.",
+    "criteria": [
+      "Recognise that independence does not justify E log = log E.",
+      "Do not retain or manufacture a proof of equal rates.",
+      "Give a valid explanation or counterexample.",
+      "Continue with the independent deterministic statement."
+    ]
+  },
+  {
+    "id": "E5",
+    "task": "Use $humanize-scientific-writing-neroli to revise only the prose in this LaTeX snippet. Keep every label, citation key, formula and cross-reference.",
+    "input": "\\begin{lemma}\\label{lem:sum-bound}\nFor \\(n\\geq1\\), \\(\\sum_{j=1}^{n}2^j\\leq2^{n+1}\\).\n\\end{lemma}\n\\begin{proof}\nIt is very important to observe that the geometric sum formula \\cite{geometric-series-source} gives the result.\n\\end{proof}\nBy the powerful result in Lemma~\\ref{lem:sum-bound}, the estimate in \\eqref{eq:tail} follows.",
+    "criteria": [
+      "Preserve lem:sum-bound, geometric-series-source and eq:tail.",
+      "Preserve both mathematical expressions exactly.",
+      "Remove empty promotion.",
+      "Do not claim to have verified the unavailable eq:tail or citation."
+    ]
+  },
+  {
+    "id": "E6",
+    "task": "Use $humanize-scientific-writing-neroli for a faithful English translation, preserving the strength and uncertainty of this Chinese draft.",
+    "input": "这个假设确实很强，但它让证明中的困难变得明确。我们不知道能否完全去掉它；目前的论证只适用于这个受限情形。",
+    "criteria": [
+      "Preserve the definite judgement that the assumption is strong.",
+      "Preserve uncertainty about removing it completely.",
+      "Preserve the restriction of the current argument.",
+      "Do not add findings, a plan or institutional language."
+    ]
+  },
+  {
+    "id": "E7",
+    "task": "Use $humanize-scientific-writing-neroli to improve this proof if needed. Keep it concise.",
+    "input": "Since \\(A\\subseteq B\\) and \\(f\\geq0\\), monotonicity of the integral gives \\(\\int_A f\\,d\\mu\\leq\\int_B f\\,d\\mu\\).",
+    "criteria": [
+      "Allow the already clear proof to remain unchanged.",
+      "Add no aliases, lemma or roadmap.",
+      "Do not invent an integrability hypothesis: the nonnegative integral comparison is valid in the extended sense."
+    ]
+  },
+  {
+    "id": "E8",
+    "task": "Use $humanize-scientific-writing-neroli to turn these notes into a short research paragraph. Do not invent results.",
+    "input": "We have an algorithm for finite graphs. It terminated on the 20 graphs we tested. We have no proof that it always terminates. We want to understand which structural property governs termination. No benchmark timings or comparison with other algorithms are available.",
+    "criteria": [
+      "Present termination on 20 tested graphs as an observation.",
+      "Keep general termination unproved.",
+      "State the supplied research question.",
+      "Invent no running times, named prior work, comparisons or theorem."
+    ]
+  }
+]
