@@ -22,6 +22,8 @@ Introduction 从引人入胜的具体问题、真实的猜想背景或其他数�
 
 公式不使用公式框；已有的框只去掉展示性边框，保留数学内容、公式编号和交叉引用。
 
+几何引理可以先用简短开头交代必要对象，再按实际操作逐步说明，每步说明后紧接对应配图，最后用引理收束已经完成的证明，不重复推导。减少零碎的独立公式；图内优先用符号，位移和位置向量用箭头表示，需要时加入坐标，并以淡色母图保留几何背景。删除没有新增信息的图。三步、三张图和半页开头是具体任务中的选择，不是所有论文的固定模板。详见[几何推导与证明配图](references/proof-figures.md)。
+
 ## 调用示例
 
 ```text
@@ -46,6 +48,7 @@ Introduction 从引人入胜的具体问题、真实的猜想背景或其他数�
 - [Skill 入口](SKILL.md)
 - [论证与证明的处理](references/argument-and-proof.md)
 - [语言与节奏](references/language-and-rhythm.md)
+- [几何推导与证明配图](references/proof-figures.md)
 - [修改前后示例](references/examples.md)
 - [论文来源、阅读范围与归纳依据](references/evidence.md)
 - [行为测试](evals/README.md)

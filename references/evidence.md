@@ -43,6 +43,12 @@ These two papers support an author-informed starting point. They do not establis
 
 Use fresh drafts and the author's actual editing choices to improve the rules. Record the task, competing revisions, preferred choice and reason; preserve the scope of a preference. The synthetic evaluation cases test intended behaviour, not measured similarity to a held-out corpus.
 
+## Author feedback on geometric exposition, 2026-09-12
+
+The author requested a shorter section opening with fewer separate equation displays, followed by distinct geometric operations, each explained and illustrated, and a lemma at the end collecting the result. He also requested removing an uninformative figure, reducing prose inside mathematical figures, using vector arrows for position and displacement symbols, adding coordinates, and retaining very faint underlying geometry in a displacement diagram. Removing a correction-term alias was intended to keep the original geometric quantities visible.
+
+The existing rules already discouraged unnecessary aliases, repetitive prose and purposeless figures. This update adds the operational figure sequence, coordinate and context conventions, selective equation displays, and a local derivation-then-lemma alternative to the usual theorem-then-proof order. The original request's three steps and roughly half-page opening remain passage-specific choices. The reusable rules are recorded without publishing the manuscript, its figures, project address or conversation transcript. No additional paper was added to the public corpus. The associated synthetic cases describe intended behaviour, not a completed independent evaluation.
+
 ## Scope consolidation, 2026-09-11
 
 The author requested a paper-only public skill under the name `neroli-scientific-writing`. The former local academic-writing reference was reviewed against this workflow: motivating gaps, purposeful examples, difficulty-dependent proof length, explicit light-edit and translation boundaries, correction notes, and the preference against unnecessary abbreviation variables are retained. Overlapping rules are expressed in the workflow and its existing references rather than duplicated in another guide. No additional paper was read for this consolidation. Non-paper personal style and its private provenance remain outside this package.

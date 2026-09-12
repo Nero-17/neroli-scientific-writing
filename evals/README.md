@@ -1,6 +1,6 @@
 # Behavioural evaluation
 
-The [eight cases](cases.json) are original synthetic inputs. They test scientific fidelity, editing scope, and whether the workflow makes a useful revision. They are not extracts from the source papers.
+The [cases](cases.json) are original synthetic inputs. They test scientific fidelity, editing scope, and whether the workflow makes a useful revision. They are not extracts from the source papers. E12 tests a geometric derivation and figure specifications with a different contraction and translation convention; E13 checks that the new pattern does not override faithful translation. These later cases are evaluation inputs, not additions to the initial observed-output record.
 
 ## Run a fresh evaluation
 

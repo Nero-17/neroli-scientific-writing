@@ -22,6 +22,7 @@ The central habits are concrete:
 - Follow the author's paper structure: an abstract of at most five sentences, contents immediately afterwards, main theorem restatements with body numbers and a relevant figure in the introduction, and subdivisions chosen for the argument, without aiming for three subsections or matching counts across sections (never more than five).
 - Give the introduction an engaging, concrete opening that leads to the paper's question, followed by orienting background, a single Main results subsection presenting the results in body-section order, and an accurate Lean formalisation subsection where applicable. Adapt this progression to the content; a historical opening is an example, not a requirement.
 - Display formulas without boxes, preserving their mathematical content and references.
+- For geometric derivations, keep setup concise, pair each meaningful operation with a useful figure, and allow a short lemma to summarise the completed proof. Prefer sparse symbolic labels, meaningful coordinates and faint contextual geometry; remove redundant figures and avoid unnecessary equation displays. Step counts and opening lengths follow the passage.
 
 The skill is grounded most strongly in mathematics. Guidance for empirical science is explicitly an editorial extension. “Human” describes the intended reader-facing quality; it does not certify unaided authorship or make claims about AI detectors.
 
@@ -70,6 +71,7 @@ No API key, executable script, network connection or private source is required 
 | [SKILL.md](SKILL.md) | Five-stage editing workflow and output contract |
 | [Argument and proof](references/argument-and-proof.md) | Structural, mathematical and claim-preservation decisions |
 | [Language and rhythm](references/language-and-rhythm.md) | Sentence-level choices and notation discipline |
+| [Proof figures](references/proof-figures.md) | Geometric steps, concise setup, symbolic figures, coordinates and contextual geometry |
 | [Worked examples](references/examples.md) | Constructed before-and-after examples |
 | [Evidence](references/evidence.md) | Versioned public sources, reading coverage and inference boundaries |
 | [Evaluation](evals/README.md) | Behavioural test cases and how to assess revisions |

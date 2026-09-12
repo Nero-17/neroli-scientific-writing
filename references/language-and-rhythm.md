@@ -36,6 +36,10 @@ Minimise intermediate variables in proofs. Prefer showing the calculation with i
 
 When simplifying notation, compare every use and dependency. In particular, a constant may depend on a point while remaining independent of the scale. Cosmetic renaming must not conceal this difference.
 
+Count the reader's work of recalling an alias, not just the characters saved. In a geometric calculation, retaining the original displacement and vertex vectors can expose the operation that a correction-term abbreviation would hide. A transformed displacement with its own role may still deserve a symbol. When the author asks to remove an alias throughout a paper, inspect prose, statements, proofs, captions and figure sources; expand that alias consistently without removing unrelated symbols that happen to use the same letter.
+
+For geometric displacement and position vectors, prefer visible vector arrows such as `\vec c` and `\vec p_i`, consistently in prose, formulas and figures. Distinguish these from scalar angles, indices and linear maps. This convention does not turn every bold symbol into a vector arrow or override an explicit notation-preservation request; retain `\mathbf` for upright bold notation where appropriate.
+
 ## Use display style for limits
 
 Every limit operator (`\lim`, `\liminf`, or `\limsup`) should be typeset in display style. Add `\displaystyle` to an inline formula containing a limit; displayed equations already have the appropriate style. This is a typographic rule, not a requirement that every limit appear on its own line. Keep a short limit within its sentence when that reads naturally, and use a separate display only when the formula or argument benefits. Preserve all conditions, punctuation and convergence qualifications.

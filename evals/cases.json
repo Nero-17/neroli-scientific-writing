@@ -96,7 +96,7 @@
       "Restate the actual pointwise theorem, using a forward reference to thm:convergence rather than a new introduction theorem counter or a hard-coded number.",
       "Do not upgrade pointwise convergence to uniform convergence.",
       "Plan a mathematically faithful DHL figure in the introduction, including its undirected interpretation; do not pretend a missing asset was supplied or rendered.",
-      "Group Section 2 into normally no more than three coherent subsections; keep estimates and proof steps rather than merely demoting all seven headings."
+      "Group Section 2 into the coherent subsections its argument needs, at most five; do not target three or merely demote all seven headings. Keep estimates and proof steps."
     ]
   },
   {
@@ -118,6 +118,30 @@
       "Show the parameter substitution and enough arithmetic to make the calculation usable.",
       "Place the calculation immediately after the theorem, and leave the theorem general.",
       "Do not claim the formula holds at r=1 without a separate argument, and do not add unnecessary abbreviation variables."
+    ]
+  },
+  {
+    "id": "E12",
+    "task": "Use $neroli-scientific-writing to rewrite this geometric derivation as concise LaTeX with a lemma at the end, and describe the corresponding mathematical figures for implementation. Make the geometric operations easy to follow. You may remove redundant notation and diagrams; do not claim to render images.",
+    "input": "Let I={0,1,2,3}, with position vectors a_0=(0,0), a_1=(2,0), a_2=(0,2), a_3=(2,2). Define F_i(z):=(z+a_i)/3 and let K be the compact attractor of these four maps. R_theta rotates about the origin. Define H_c^(theta):=K intersect (R_theta K+c). The current draft separately displays each definition and introduces d_ij:=R_theta a_j-a_i. Its proof expands both unions, applies z maps to 3z-a_i to each pair intersection, and reads the new translation as 3c+d_ij. A single crowded figure shows all operations with sentence-length labels; another repeats only the outline of K. Explain the operations before the final identity. Use one consistent example angle and displacement in figure specifications, vector arrows for geometric vectors, coordinates, and faint underlying sets where they clarify displacement. The claim is for every real theta and every c in R^2.",
+    "criteria": [
+      "Give concise setup with definitions available before use; do not display every short assignment or introduce a new alias for the correction term.",
+      "Distinguish all 16 candidate pair intersections, allowing empty cases, and normalise both members of a pair with the same map z maps to 3z-a_i.",
+      "Preserve the plus-c convention: the transformed translation is 3c+R_theta a_j-a_i. Use F_i as the inverse map to obtain H_c^(theta)=union over i,j of F_i(H_(3c+R_theta a_j-a_i)^(theta)).",
+      "Develop a complete general derivation before the closing lemma and identify it as the proof, without repeating it or using the illustrative parameters as universal proof.",
+      "Pair operation explanations with appropriate figure specifications, remove the redundant outline, and keep sentence-length explanations outside the figures.",
+      "Keep vector notation and coordinates consistent; show the factor-three dilation, actual arrow endpoints and faint context, with finite approximations identified. Do not import a factor of two, nine pairs or an arbitrary required opacity.",
+      "Do not claim image generation, rendering or compilation that was not performed."
+    ]
+  },
+  {
+    "id": "E13",
+    "task": "Use $neroli-scientific-writing for a faithful Chinese translation of this short lemma and proof. Preserve the order and the supplied mathematical notation.",
+    "input": "Lemma. Let A and B be measurable sets with A subseteq B, and let f be a nonnegative measurable function. Then the integral of f over A is at most the integral of f over B. Proof. This follows from monotonicity of the nonnegative integral.",
+    "criteria": [
+      "Translate the lemma and proof in their existing order, keeping their assumptions and the possibility of infinite nonnegative integrals.",
+      "Do not add geometric steps, coordinate axes, figures or a half-page preamble to this already short proof.",
+      "Do not move the lemma after its proof or change scalar/set notation to vector arrows under the faithful-translation contract."
     ]
   }
 ]
