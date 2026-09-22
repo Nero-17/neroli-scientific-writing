@@ -2,6 +2,8 @@
 
 The [cases](cases.json) are original synthetic inputs. They test scientific fidelity, editing scope, and whether the workflow makes a useful revision. They are not extracts from the source papers. E12 tests a geometric derivation and figure specifications with a different contraction and translation convention; E13 checks that the new pattern does not override faithful translation. These later cases are evaluation inputs, not additions to the initial observed-output record.
 
+E14 checks an opening developed from Chinese notes while preserving eventual periodicity and the local editing scope. E15 checks represented unions, labelled transitions, table-to-matrix counting and a concise later application. E16 checks a terminology change with an older conflicting use of the same word. These are additional synthetic evaluation inputs; no independent runs or measured performance are claimed for them.
+
 ## Run a fresh evaluation
 
 Give the editor the skill and a case's `task` and `input`. Do not show it `criteria`, `initial-outputs.json`, or earlier assessment conclusions. Let it read the skill's relevant references as it normally would. Record the model, settings, date, complete output, and any tools actually used.

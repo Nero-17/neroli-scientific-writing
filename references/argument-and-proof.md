@@ -14,6 +14,12 @@ This is a relationship between ideas, not a mandatory section order. An introduc
 
 The explanation of a hypothesis should say what breaks without it. If the supplied argument does not establish necessity, describe where the hypothesis is used instead of calling it necessary. Separate convenience of presentation from mathematical necessity.
 
+### Subsection openings from the author's notes
+
+An outline such as “a natural question is ...; we can approach it through ...; finally we prove ...” specifies a logical progression. Fill in the actual question left by the preceding result, identify the concrete mechanism used by the proof, and state the resulting conclusion. For a converse, make clear which implication remains to be established. Merely announcing that the next result is important does not supply a mechanism.
+
+Use the surrounding definitions and proof to complete abbreviated notes. Preserve qualifications such as nonemptiness or eventual rather than immediate periodicity; do not invent a proof or a stronger conclusion to complete the prose. A short opening should orient the reader without reproducing the proof. Three sentences can work, but neither that count nor the phrase “a natural question” is compulsory. Under a local opening edit, leave the theorem and proof in place unless a necessary substantive correction is separately identified.
+
 ## Introduce the results under their body numbers
 
 ### Shape the introduction around the question
@@ -97,9 +103,13 @@ Definitions belong outside theorem, lemma and proposition statements. Move a phr
 
 Prefer the smallest example that performs a needed job. A counterexample may explain why a tempting shortcut fails. A worked construction may show how an abstract definition is evaluated. A numerical check illustrates behaviour under the reported conditions; it does not prove the general theorem.
 
+When one result mixes an object's construction, a main conclusion and several equivalent hypotheses, consider separating them: define the object first; illustrate it immediately if its construction is hard to read; state the theorem with its necessary hypotheses and central conclusion; and collect the equivalent criteria in a proposition. Order these parts by dependency rather than imposing this sequence on every paper. For a cyclic equivalence proof, make each implication explicit, for example `(1) implies (2)`, `(2) implies (3)`, and `(3) implies (1)`, with an actual argument for each link. Keep all necessary assumptions; a concise statement is not a weaker specification.
+
 After the main theorem, work through a concrete admissible instance: specify the object and parameters, compute the theorem's inputs, carry out the resulting finite calculation, and explain the output. For a critical-density representation, for example, evaluate a finite-cell probability and its root, identifying that root as a bound if the theorem says it is a bound. Verify algebra and any numerical values; do not present a finite approximation as the limiting answer. A compact calculation after an introduction restatement may point to the full example after the body theorem. This author preference does not require new examples after every technical lemma, and it does not override an explicit light-edit contract.
 
 Preserve an example already doing this work. Do not insert a favourite graph, metaphor or counterexample from the exemplar papers into unrelated science.
+
+Spend explanation on the example where the reader learns to construct the object. If its matrix and spectral radius have already been obtained, a later application of the dimension formula may be a single sentence citing the theorem. This fulfils the worked-calculation preference without repeating the construction. Do not shorten the first calculation into an unexplained matrix or numerical answer.
 
 An appendix consisting of a directly relevant calculation can instead become an example beside the general theorem it illustrates. Share the theorem counter with examples and preserve stable labels when moving them. Keep the theorem's general hypotheses separate from the example's special geometry; placing a special case in the body must not silently narrow the surrounding result.
 

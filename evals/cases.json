@@ -143,5 +143,41 @@
       "Do not add geometric steps, coordinate axes, figures or a half-page preamble to this already short proof.",
       "Do not move the lemma after its proof or change scalar/set notation to vector arrows under the faithful-translation contract."
     ]
+  },
+  {
+    "id": "E14",
+    "task": "Use $neroli-scientific-writing to rewrite only the English opening of this subsection from my Chinese outline. Do not edit the theorem or proof.",
+    "input": "Outline: 一个自然的问题是……？我们可以从……来回答这个问题。最后我们证明……。 Context: f:X->X is a function and x_0 is fixed. The preceding result says an eventually periodic forward orbit is finite. The next theorem proves the converse. Its proof takes equal iterates f^m(x_0)=f^n(x_0) with 0<=m<n from finiteness, then applies f repeatedly. A finite transient segment may precede the cycle. The theorem and proof already follow the opening.",
+    "criteria": [
+      "Develop the actual converse question, the repeated-iterate mechanism, and eventual periodicity as the conclusion, in that order.",
+      "Do not strengthen eventual periodicity to periodicity starting at x_0.",
+      "Keep the opening brief without reproducing the proof, introducing unnecessary aliases, figures or display equations.",
+      "Respect the opening-only scope and use idiomatic English; no fixed sentence count or stock wording is required."
+    ]
+  },
+  {
+    "id": "E15",
+    "task": "Use $neroli-scientific-writing to make this matrix example understandable immediately after its definition. Give a schematic figure specification, then a table next to the matrix, and reduce the later theorem application to one sentence. Use arrows for displacement vectors, including zero.",
+    "input": "States A={0,u} and B={v} represent the unions of geometric sets E_c indexed by their displacement values. Here 0,u,v are vectors. The supplied one-step rule has branches labelled 0 and 1 from A to B, and branch labelled 1 from B to A; there are no others. Each label contributes one to the matrix entry. Rows are sources and columns are targets in order A,B. The rule is assumed established, but no exact shapes or positions of E_c are supplied. The example must compute the matrix and its spectral radius. Later, an already proved graph-directed theorem with common contraction ratio 1/3 and verified open set condition gives dimension log(rho)/log(3). Current draft writes: The entry {0,1} is obvious. M=[[0,2],[1,0]]. Let N:=M. We repeat this whole calculation in the later example.",
+    "criteria": [
+      "Explicitly connect A with E_(vector zero) union E_u and B with E_v; the set of displacement parameters is not itself that geometric union.",
+      "Use the supplied transitions for a schematic labelled diagram without inventing geometric shapes, intersections or verification of the rule.",
+      "Identify source rows, target columns and label-set cells: empty sets on the diagonal, {0,1} from A to B and {1} from B to A.",
+      "Explain cardinality counting, yielding [[0,2],[1,0]] and spectral radius sqrt(2); retain both different labels reaching B.",
+      "Use vector arrows for displacement zero,u,v but not for scalar branch labels or matrix zeros. Remove the unnecessary N:=M alias.",
+      "Use the previously calculated spectral radius and supplied theorem in the later one-sentence consequence: dimension log(2)/(2 log(3)), retaining relevant hypotheses by context or reference."
+    ]
+  },
+  {
+    "id": "E16",
+    "task": "Use $neroli-scientific-writing to rename rational angles as resonant angles throughout this English excerpt. Preserve the mathematical criteria. The Chinese version is outside scope.",
+    "input": "Abstract: We classify rational and non-rational angles. Section heading: Rational angles. Definition: theta is rational when theta/pi is rational. Separate definition: theta is an axis resonance when theta is an integer multiple of pi/2. Figure caption: Rational angles away from the axes. Prose: Among the non-resonant rational angles, by which we currently mean rational angles outside the axis resonances, the same counting method applies. The case theta=pi/3 is rational but is not an axis resonance. Internal LaTeX label: sec:rational-angles. No physical oscillation model or literature claim is supplied.",
+    "criteria": [
+      "Define resonant angles by the unchanged criterion theta/pi in Q, and non-resonant angles by its negation.",
+      "Update the abstract, heading, caption and prose; repair the now contradictory non-resonant rational compound as resonant angles excluding axis resonances.",
+      "Keep axis resonance distinct and preserve the pi/3 example.",
+      "Do not claim the chosen terminology is standard or add a physical mechanism; stable internal LaTeX keys may remain.",
+      "Respect the English-only scope without imposing manuscript-specific naming on unrelated work."
+    ]
   }
 ]

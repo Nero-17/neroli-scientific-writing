@@ -26,8 +26,24 @@ Ask what the reader learns from each figure beyond the nearby text or another fi
 - Anchor displacement arrows to their actual endpoints. Arrange a vector sum head to tail when that demonstrates the identity, and verify its signs in the manuscript's translation convention. Preserve consistent colours for the same objects across steps.
 - When arrows alone lose their geometric meaning, retain the parent objects as a faint background and show selected pieces more strongly. The context should locate the vectors without competing with them. Choose opacity by inspecting the rendered figure; there is no universal numerical opacity.
 
+Show each object claimed to be drawn in full within the intended scene; do not omit half of a comparison object merely because its intersection is the focus. If a finite window, clipping or approximation is intentional, identify it. Distinguish a missing object from an empty intersection.
+
+## From a geometric example to a table and matrix
+
+When a matrix encodes geometry, let the reader reconstruct it: show the configuration, record the transitions in a table, and count them into the matrix. Place the table and matrix side by side when legible. Use the same state order, colours and labels across all three representations.
+
+Define what the row and column states represent and identify the direction explicitly, for example rows as sources and columns as targets. Explain what belongs in a cell: branch labels, successor states, weights or multiplicities are different objects. If a matrix entry counts labels, state that it is the cardinality of the cell's label set; an empty set gives a zero entry. Different labels reaching the same target still contribute separately under that convention. Do not assume a reader will infer these rules from braces or a slash in the heading.
+
+In an aggregated state, the represented geometric object may be a union of several sets. Show that union explicitly in the introductory figure rather than relying on an undefined set-of-parameters shorthand. Define the transition rule before using its table. A one-step matrix requires a state description sufficient to determine the next transition; do not silently replace it with a multi-step rule, assume closure, or treat a visually plausible table as proof that the states are valid. Flag unresolved mathematical dependencies instead of resolving them cosmetically.
+
+## Lattice inclusion figures
+
+For a lattice contained in a finer lattice, show their points in the same coordinate frame and scale. Where their grid relation matters, overlay the coarse grid and the fine grid, with distinguishable line weights and point markers. Make clear that inclusion concerns lattice points; the connecting segments need not coincide. A displayed finite window illustrates the relation, while exact basis identities or the surrounding argument establish it for the infinite lattices. State the example's parameters and reference the figure at the relevant condition of the proposition.
+
 ## Check the drawing against the derivation
 
 Generate exact constructions from their coordinates or maps using maintainable vector or plotting sources where practical. Check the image against the algebra: domains, pair indices, centres, translation signs, dilation factors, transformed points and any inverse map used to recover the original intersection. A sketch of one parameter choice or a finite approximation must be labelled accordingly; its appearance cannot establish a universal statement or an exact limiting set.
 
 Inspect the rendered manuscript at its intended reading size, including the placement of each explanation and figure. Check clipping, overlapping labels, arrowheads, faint context and the consistency of text, captions and assets. Do not claim a visual inspection or successful compilation when only source files were examined.
+
+Check page flow as well: avoid unexplained blank areas created by oversized floats or unnecessary forced placement, keep each explanation near its figure, and verify numbering and references after moving or deleting material. A figure that is clear as a standalone image must still be readable at its actual manuscript size.

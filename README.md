@@ -23,6 +23,9 @@ The central habits are concrete:
 - Give the introduction an engaging, concrete opening that leads to the paper's question, followed by orienting background, a single Main results subsection presenting the results in body-section order, and an accurate Lean formalisation subsection where applicable. Adapt this progression to the content; a historical opening is an example, not a requirement.
 - Display formulas without boxes, preserving their mathematical content and references.
 - For geometric derivations, keep setup concise, pair each meaningful operation with a useful figure, and allow a short lemma to summarise the completed proof. Prefer sparse symbolic labels, meaningful coordinates and faint contextual geometry; remove redundant figures and avoid unnecessary equation displays. Step counts and opening lengths follow the passage.
+- Develop subsection notes into the actual question, proof mechanism and supported conclusion. Separate definitions, construction examples, concise theorems and equivalent-conditions propositions by their roles and dependencies; do not impose a fixed template.
+- Make a geometric matrix example reconstructible through figure, transition table and matrix. Define represented sets, source and target states, cell contents and the counting rule; shorten later applications when the calculation is already available.
+- Keep notation and terminology meaningful: distinguish vector zero from scalar labels, define set-to-union interpretations, and give intuitive names exact definitions while auditing related terms throughout the requested manuscript version.
 
 The skill is grounded most strongly in mathematics. Guidance for empirical science is explicitly an editorial extension. “Human” describes the intended reader-facing quality; it does not certify unaided authorship or make claims about AI detectors.
 

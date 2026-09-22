@@ -65,6 +65,8 @@ Do not put definitions inside theorem statements, including introduction restate
 
 Make the relationship between adjacent claims explicit. A reader should understand why the next definition, estimate, example, or case is needed.
 
+When developing an author's subsection outline, preserve its reasoning order. If it asks for a question, an approach and a conclusion, make each concrete and supported by the surrounding argument. Separate the roles of a definition, a construction example, a concise theorem and an equivalent-conditions proposition when this clarifies an overloaded result. A later example may be one sentence if its inputs have already been calculated. See [references/argument-and-proof.md](references/argument-and-proof.md); these are local choices, not a mandatory sequence or sentence count.
+
 - Replace a generic importance paragraph with the actual question and the concrete limitation of existing work, when supplied.
 - Introduce a technical object with its purpose; after a difficult formula explain the mechanism or consequence when that adds information.
 - Place an example where it explains a construction, exposes a failed approach, tests a hypothesis, or makes a conclusion usable.
@@ -107,7 +109,7 @@ Compare the revision with the source, not just with how fluent the revision soun
 2. Have all necessary conditions, qualifications, exceptional cases and dependencies survived?
 3. Are proof steps and transitions justified rather than merely asserted?
 4. Does each new symbol, paragraph, and structural change help the reader? Have short-expression aliases and dispensable intermediate variables been removed, including inside proofs, without losing dependencies or mathematical meaning?
-5. Do notation, cross-references, numerical values and claim status agree across the edited scope?
+5. Do notation, cross-references, numerical values and claim status agree across the edited scope? Are represented objects, set operations, table entries and matrix counts explicitly connected? When terminology changes, does its definition remain exact and distinct from related notions? See [references/language-and-rhythm.md](references/language-and-rhythm.md) and [references/proof-figures.md](references/proof-figures.md).
 6. For a complete paper, is the abstract at most five short sentences, followed by the contents; does the introduction contain a relevant figure and accurate theorem restatements with body numbers; are the main results collected in one subsection in body-section order, with each section using only the subdivisions its content needs rather than a fixed count; and is the main theorem followed by a checked, concrete worked calculation?
 7. Does the introduction engage the reader with a concrete starting point, connect it to the paper's question, orient the reader before stating results, and accurately describe any Lean formalisation? Has the final LaTeX source in the edited scope been checked for `\boxed` and other presentational formula frames, including inherited formulas and theorem restatements?
 8. Are the core models formally defined before use, body theorems adjacent to their proofs, and local headings and example counters consistent with the argument? Does every symbolic assignment use `:=`, with identities and characterising equations still using `=`?

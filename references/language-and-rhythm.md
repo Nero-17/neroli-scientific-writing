@@ -40,6 +40,18 @@ Count the reader's work of recalling an alias, not just the characters saved. In
 
 For geometric displacement and position vectors, prefer visible vector arrows such as `\vec c` and `\vec p_i`, consistently in prose, formulas and figures. Distinguish these from scalar angles, indices and linear maps. This convention does not turn every bold symbol into a vector arrow or override an explicit notation-preservation request; retain `\mathbf` for upright bold notation where appropriate.
 
+Apply that vector convention to the zero vector as well: write `\vec{0}` when it is a geometric displacement, while keeping scalar zeros, matrix entries and digit labels as `0`. Inspect the meaning of each occurrence rather than replacing every zero mechanically.
+
+Keep a label separate from the object it represents. A set of parameters does not automatically mean the union of the corresponding geometric sets. Define that interpretation before using it, or write the union explicitly while introducing the construction. Likewise, `{1,2}` denotes a set of labels unless another meaning has been specified; it does not denote their sum. Sparse mathematical notation works only when the reader knows the type and role of each symbol.
+
+## Choose and change terminology by meaning
+
+Prefer a name that tells the reader what a quantity measures; for example, a geometric displacement should be introduced through its geometric meaning even if a computational implementation calls it a state. A state aggregating several displacement values must remain distinguishable from any one of those values.
+
+An intuitive name chosen by the author needs a precise definition on first introduction. Preserve its exact criterion, explain its connection to established terminology where useful, and distinguish neighbouring concepts that already use the same word. Do not present a new local convention as standard usage or infer a physical mechanism from a suggestive name.
+
+For a manuscript-wide rename, check the abstract, headings, statements, prose, captions and visible figure labels, including negated forms and older compounds. Repair combinations that become contradictory under the new definition. Internal LaTeX keys and code identifiers need not change when they are not reader-facing. Preserve language-version scope: an edit to one version does not automatically authorise changing the others.
+
 ## Use display style for limits
 
 Every limit operator (`\lim`, `\liminf`, or `\limsup`) should be typeset in display style. Add `\displaystyle` to an inline formula containing a limit; displayed equations already have the appropriate style. This is a typographic rule, not a requirement that every limit appear on its own line. Keep a short limit within its sentence when that reads naturally, and use a separate display only when the formula or argument benefits. Preserve all conditions, punctuation and convergence qualifications.
