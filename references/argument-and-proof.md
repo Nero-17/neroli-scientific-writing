@@ -75,6 +75,32 @@ For a technical passage, track only the distinctions relevant to editing it:
 
 Keep this record small and internal unless the user requests a diagnostic. It must not become new notation in the paper.
 
+## Recover an existing manuscript without losing its content
+
+When the author names an older draft as the source, inspect it alongside the current version and agreed outline. Map the introduction, basic properties, definitions, arguments and examples to their intended destinations. A new outline is not permission to discard material that still fits it. Preserve author-selected prose, especially an introduction the author wants restored; repair only the inconsistencies required by the current claims. Explain substantive omissions briefly rather than silently dropping them.
+
+Carry forward still-valid content, not superseded mathematics. Distinguish an old hypothesis removed by a new proof from one that remains necessary. When a classification or theorem changes, check its dependent abstract statements, introduction restatements, tables, examples and conclusions within the authorised scope. Make the needed consistency edits without turning a local request into a whole-paper rewrite. Keep sections explicitly excluded by the author unchanged and flag any dependency that cannot be resolved within that boundary.
+
+For a shared Overleaf or Git manuscript, obtain the latest accessible source before editing and compare changes before publishing. Preserve concurrent author edits; reconcile a newer revision rather than overwriting it. Compile and inspect affected pages when suitable tools are available, then save through the requested channel and verify that the saved revision contains the edit. Local compilation, mathematical verification and successful remote saving are separate claims. This workflow applies when direct manuscript editing is requested; it does not require network access for an ordinary pasted-text revision or grant permission to publish elsewhere.
+
+## Define observations before deriving a classification
+
+Start with the observable: what is sampled, what is counted, and what asymptotic behaviour its exponent records. When relevant, specify the root or volume sampling, the randomness being averaged, conditioning, metric, normalisation, side of a transition, and order of limits. Use one common convention where it really applies, with explicit exceptions for different observations.
+
+Define an exponent through that observable and prove its existence and expression separately. Do not insert the desired dimension formula as its definition and then advertise an equivalence as a discovery. If only some observables exist throughout the model class, explain that selection before defining a class from them; derive the smaller set of equivalent invariants afterwards. Do not claim that these are the only possible unconditional observables unless proved.
+
+Keep nearby but different conclusions distinct: a cumulative tail and a point probability, a cell average and a pointwise estimate, an expected growth rate and an almost-sure dimension, a finite graph law and a metric scaling limit. An averaged or one-sided result can be valuable under its stated definition; changing the definition does not prove the original stronger claim. A proof outline remains a proof outline, and a missing local-limit or comparison argument remains a stated gap.
+
+A compact opening table can orient the reader across observables and regimes. Its entries must agree with the precise definitions and statements below, including zero exponents, exceptions and sufficient versus necessary conditions. Keep the choice and number of quantities specific to the paper.
+
+## Attribute overlap and distinguish an extension
+
+When comparing a new manuscript with prior work, use the original theorem statements and relevant definitions, not the abstract or a familiar symbol alone. Match model assumptions, observables, conditioning, counting conventions and conclusion strength. An identical formula under a different sampling law may require a comparison lemma; equality of growth rates does not establish equality or similarity of the underlying matrices.
+
+Separate direct reuse, a reformulation, a genuine extension and a remaining proof obligation. Give the exact theorem or equation citation for a reused result. Do not claim novelty merely from a new name, notation or packaging, and do not call something an extension from a special model if the cited work already treats the general case. Conversely, the absence of a result in one paper does not establish literature-wide priority.
+
+For the author's own results, omit the optional descriptive title in `\begin{theorem}`, `\begin{lemma}`, `\begin{proposition}` and `\begin{corollary}`. Explain their role in the preceding prose. Only a result attributed to other authors may use the optional heading for that attribution; include a verified citation and result number when available. A modification or corollary proved in the present paper should normally cite its input in the prose or proof, with an unnamed result heading. Preserve internal labels and introduction numbering when removing a descriptive heading.
+
 ## Revise a proof by its dependencies
 
 Find the endpoint and the indispensable intermediate steps. Keep assumptions and definitions available before they are used. Move explanatory prose where it prepares the difficult step, rather than collecting all explanation in a preamble.

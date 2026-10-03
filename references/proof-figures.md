@@ -14,7 +14,7 @@ Write a short explanation of each operation, then place its figure immediately a
 
 Choose the figure from the step's task: which pieces interact, which map identifies two problems, or how a displacement is composed. A decomposition diagram should distinguish the relevant pairings; a transformation diagram should track the same objects or point; a displacement diagram should show where the vectors start and end. Retain required empty cases rather than suggesting every candidate pair intersects.
 
-Let the surrounding prose explain the operation. Inside the figure, prefer object labels, parameter symbols, map labels and a small number of necessary numerical values. Move sentence-length explanations into the text or caption. A caption can identify the chosen parameters, finite approximation and panel convention; it should not repeat the entire proof. Minimal text still needs unambiguous symbols and legible labels at the final printed size.
+Let the surrounding prose explain the operation. Inside the figure, prefer object labels, parameter symbols, map labels and a small number of necessary numerical values. Move sentence-length explanations into the surrounding text. Keep captions short: identify the figure and only the parameters or conventions needed to read it; do not move an entire explanation from the prose into the caption. Minimal text still needs unambiguous symbols and legible labels at the final printed size.
 
 Ask what the reader learns from each figure beyond the nearby text or another figure. Delete or replace a redundant figure instead of decorating it or preserving its number. Repair the affected references. The number of figures follows the operations and the user's request, not a preferred count.
 
@@ -39,6 +39,14 @@ In an aggregated state, the represented geometric object may be a union of sever
 ## Lattice inclusion figures
 
 For a lattice contained in a finer lattice, show their points in the same coordinate frame and scale. Where their grid relation matters, overlay the coarse grid and the fine grid, with distinguishable line weights and point markers. Make clear that inclusion concerns lattice points; the connecting segments need not coincide. A displayed finite window illustrates the relation, while exact basis identities or the surrounding argument establish it for the infinite lattices. State the example's parameters and reference the figure at the relevant condition of the proposition.
+
+## Comparison tables and panel layout
+
+For a family of observables, a compact overview near the section opening can list their meanings, validity regimes and what is actually proved. Define them precisely in the following text; do not make the table carry the whole theory. For numerical model comparisons, orient the table so comparable quantities are easy to scan, and transpose it when requested. Preserve every model-value association, unit, label and footnote while transposing. Use the requested rules between conceptual groups instead of adding a full grid indiscriminately.
+
+The author's default for approximate table and worked-example values is four decimal places, including trailing zeros. Compute with sufficient precision and round only the displayed values. Keep exact symbolic expressions when they make a quantity transparent, such as a dimension written as a logarithmic ratio. If the author requests numbers in place of a spectral radius or derivative symbol, substitute the evaluated numbers. Do not round exact certificates, error bounds or inequalities into false statements; retain the precision their mathematical role needs. Keep the argument of a quantity explicit where the ambient object and its random subset are different.
+
+Align comparable figure panels using their intended geometric frame, give them visible separation, and inspect the result at manuscript size. A source-code alignment option alone is not evidence that the models look aligned. Preserve the requested caption and numbering scope: if only one panel is to be numbered, do not add a second caption or unsolicited explanation to the other. This is a local author choice, not a rule that all multi-panel figures should leave panels unlabelled. Prefer adjusting widths, spacing and wrapping over shrinking labels or table text below readability.
 
 ## Check the drawing against the derivation
 

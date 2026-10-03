@@ -57,6 +57,16 @@ The author also chose more intuitive names for geometric quantities and a class 
 
 The public update records reusable editing decisions without reproducing the unpublished manuscript, figures, project address or conversation transcript. Its new evaluation cases are synthetic inputs, not completed independent tests or evidence of mathematical verification. No additional paper was added to the public corpus.
 
+## Author feedback on iterative manuscript revision, 2026-10-03
+
+The author asked to consolidate the working habits developed through repeated manuscript edits. Explicit preferences include restoring a chosen older introduction, recovering still-relevant foundational material within an agreed new outline, preserving Chinese wording and parentheses in faithful translation, executing marked editorial comments, keeping captions short, transposing and grouping comparison tables, using four decimal places for approximate numerical entries, retaining useful exact logarithmic expressions, and visually checking figure alignment. A request to number only one figure panel remains a local layout choice.
+
+The author also chose an exposition beginning with physical observables and their ranges of existence, selecting broadly valid quantities for a classification, and only then deriving an equivalent description through fewer invariants. The reusable rule is that definitions and proved equivalences retain their separate roles; the particular quantities, number of exponents, section count and page budget are not templates for other papers. Comparing source theorems with a developing manuscript motivates the guidance on exact attribution and matching observation conventions. That guidance is an editorial extension, not a claim that every mathematical result discussed in the editing process has been verified.
+
+The new explicit result-heading rule is to omit optional descriptive `[...]` titles from the author's own theorem, lemma, proposition and corollary environments. Those brackets are reserved for attribution when stating another author's result. This replaces descriptive naming of results as an automatic stylistic choice; it does not ban mathematical brackets or citation syntax.
+
+These decisions are integrated into the existing workflow and references. The public record includes reusable preferences, not unpublished theorems, private project addresses, research archives or conversation transcripts. No additional paper is added to the style corpus. Any new evaluation cases are synthetic specifications and are not reported as independent tests already run.
+
 ## Scope consolidation, 2026-09-11
 
 The author requested a paper-only public skill under the name `neroli-scientific-writing`. The former local academic-writing reference was reviewed against this workflow: motivating gaps, purposeful examples, difficulty-dependent proof length, explicit light-edit and translation boundaries, correction notes, and the preference against unnecessary abbreviation variables are retained. Overlapping rules are expressed in the workflow and its existing references rather than duplicated in another guide. No additional paper was read for this consolidation. Non-paper personal style and its private provenance remain outside this package.

@@ -66,4 +66,8 @@ Apply this rule to inherited formulas and restated theorems as well as newly wri
 
 Preserve the author's intended emphasis and logical progression. Translate mixed-language working notes into the requested target language while retaining technical meaning. Correct accidental repetition, spelling and syntax; do not manufacture errors to create personality.
 
+Under an explicit faithful-translation request, preserve the author's sentence progression, parenthetical remarks, rhetorical questions and chosen manner of expression. Do not rewrite a carefully chosen opening into a new motivational argument. When the author identifies `【...】` or another marker as comments, carry out those instructions and remove the comment markers from the finished prose; preserve ordinary parenthetical content. Do not treat every bracketed phrase as an instruction without that convention. If a mathematical correction is needed, identify it separately rather than silently changing the claim in translation.
+
 Use idiomatic English rather than word-for-word Chinese syntax, but do not add institutional praise, new motivation, or a more deferential persona. Follow the existing manuscript's spelling and house style. For a new English draft without guidance, British spelling is a tentative default.
+
+Follow an explicitly requested citation form, such as a compact journal-volume-year-page reference in an abstract, without inventing publication metadata. Apply a local formatting request locally; it does not automatically replace the whole bibliography style.

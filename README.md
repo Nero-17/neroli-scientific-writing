@@ -26,6 +26,10 @@ The central habits are concrete:
 - Develop subsection notes into the actual question, proof mechanism and supported conclusion. Separate definitions, construction examples, concise theorems and equivalent-conditions propositions by their roles and dependencies; do not impose a fixed template.
 - Make a geometric matrix example reconstructible through figure, transition table and matrix. Define represented sets, source and target states, cell contents and the counting rule; shorten later applications when the calculation is already available.
 - Keep notation and terminology meaningful: distinguish vector zero from scalar labels, define set-to-union interpretations, and give intuitive names exact definitions while auditing related terms throughout the requested manuscript version.
+- Recover still-valid material from a named older draft when reorganising a paper, and preserve author-selected prose, translation details and excluded sections. Execute marked editorial comments rather than printing them in the manuscript.
+- Introduce observables and their validity regimes before deriving formulas and classification equivalences. Attribute existing theorems precisely; a new name or sampling convention does not itself establish a new result.
+- Keep captions short, comparison tables legible and figure panels aligned. Default approximate table and example values to four decimal places, retaining exact formulas and mathematically necessary precision; follow requested grouping and panel numbering.
+- Leave the author's own theorem, lemma, proposition and corollary headings without optional descriptive titles. Reserve `[...]` for attribution of another author's cited result, preserving labels and numbering.
 
 The skill is grounded most strongly in mathematics. Guidance for empirical science is explicitly an editorial extension. “Human” describes the intended reader-facing quality; it does not certify unaided authorship or make claims about AI detectors.
 

@@ -18,10 +18,12 @@ Use this skill for scientific papers and manuscript passages: abstracts, introdu
 Infer the audience, genre, requested language, source format, and permitted depth from the request and draft. Ask only when an unresolved choice would materially change the result.
 
 - **Default: substantive revision.** Reorder or rewrite prose where this improves the argument. Preserve scientific content, the actual proof strategy, and useful existing organisation. Do not stop at swapping adjectives.
-- **Light edit / faithful translation / preserve my wording:** preserve the progression and emphasis, correcting language and local ambiguity. Do not silently apply a structural rewrite.
+- **Light edit / faithful translation / preserve my wording:** preserve the progression and emphasis, correcting language and local ambiguity. When the author explicitly asks to retain parentheses, questions or a particular form of expression, preserve those too. Treat author-marked comments such as `【...】` as editing instructions, not publishable prose. Do not silently apply a structural rewrite.
 - **Draft from notes:** develop only supplied claims and support. Mark essential missing content instead of fabricating a complete research story.
 
 If the input is an entire manuscript, inspect its overall structure, main claims, standing assumptions and notation before revising sections. Keep terminology and dependencies consistent across sections. If only an excerpt is available, work locally and state only material limitations; do not pretend to have checked the rest.
+
+When rebuilding a manuscript from an older version, map its still-valid material into the agreed outline before deleting or rewriting passages. Preserve an author-selected introduction and other intentional prose. Respect sections and language versions excluded from the edit. For source recovery and direct edits to a shared manuscript, read the corresponding guidance in [references/argument-and-proof.md](references/argument-and-proof.md).
 
 ### Author's manuscript structure
 
@@ -59,11 +61,15 @@ Read [references/argument-and-proof.md](references/argument-and-proof.md) when r
 
 ### Global rule for theorem statements and definitions
 
+**Leave result headings unnamed unless attributing another author's result.** Write `\begin{proposition}\label{...}`, not `\begin{proposition}[Geometric criterion for a nontrivial transition]`. This applies to theorem, lemma, proposition and corollary environments, including introduction restatements. Reserve the optional `[...]` for attribution of a cited external result, with its verified source; put explanatory descriptions in the surrounding prose. Preserve labels and numbering. This rule concerns result-heading titles, not mathematical brackets or citation syntax.
+
 Keep theorem statements as short as their precise content allows. When the conclusions form a progression and the final conclusion subsumes the earlier ones, state only the final conclusion in the theorem. If an intermediate conclusion is independently important, give it a separate lemma and its proof at the appropriate point in the argument. Routine intermediate steps belong in the proof. Preserve necessary hypotheses, quantifiers, parameter dependence and qualifications; do not discard a distinct conclusion that the final one does not imply merely to shorten the statement.
 
 Do not put definitions inside theorem statements, including introduction restatements. Introduce all required definitions separately, before the result, using `:=` for symbolic definitions. Put an important definition in its own `\begin{definition}...\end{definition}` environment; a short auxiliary definition may stand in ordinary prose or display math outside the theorem. Keep definitions separate from lemma and proposition statements as well. Quantifying an arbitrary object under stated hypotheses, or asserting existence of an object as the theorem's conclusion, is not itself a definitional assignment. After moving a definition, retain its domain, dependencies and any existence or uniqueness justification needed to make it well-defined. Apply this rule to individual result edits as well as whole manuscripts.
 
 Make the relationship between adjacent claims explicit. A reader should understand why the next definition, estimate, example, or case is needed.
+
+For observables used in a classification, introduce their physical or geometric meaning and observation conventions first, state where they exist, and then prove their formulas and any equivalence with a smaller set of invariants. Do not define them backwards from the desired classification. Distinguish a proved result from a proof outline and a cited result from a new extension; compare hypotheses and definitions before claiming overlap or novelty. See [references/argument-and-proof.md](references/argument-and-proof.md).
 
 When developing an author's subsection outline, preserve its reasoning order. If it asks for a question, an approach and a conclusion, make each concrete and supported by the surrounding argument. Separate the roles of a definition, a construction example, a concise theorem and an equivalent-conditions proposition when this clarifies an overloaded result. A later example may be one sentence if its inputs have already been calculated. See [references/argument-and-proof.md](references/argument-and-proof.md); these are local choices, not a mandatory sequence or sentence count.
 
@@ -88,6 +94,8 @@ Read [references/language-and-rhythm.md](references/language-and-rhythm.md) for 
 Remove repetitive promotion, empty transitions, needless nominalisations, and explanations that merely repeat a displayed formula. Do not use a forbidden-word list or replace every long sentence with short ones. Avoid substituting elegant synonyms for the same mathematical object.
 
 **Keep display mathematics selective.** Put short setup formulas and routine substitutions in the sentence when readable. Reserve displays for identities, derivations and conclusions that the reader needs to inspect. Reduce excessive displays by integrating prose and formulas, without removing hypotheses, labels or necessary reasoning. Display style for limits does not require a separate display.
+
+**Keep captions short and comparison tables readable.** Prefer a compact overview when several quantities have different definitions or validity regimes; follow the author's requested orientation and group separators. Use four decimal places by default for approximate values in numerical comparison tables and examples, retaining exact formulas and the precision needed for rigorous bounds. Check the rendered layout, including panel alignment and requested numbering. See [references/proof-figures.md](references/proof-figures.md).
 
 **Avoid shorthand symbols and minimise intermediate variables throughout the manuscript, including proofs.** If an expression is already short, has no fraction and contains only a few letters or operations, write it directly instead of introducing a new symbol for it. For example, do not introduce `h:=\lambda p` or `\delta:=1-p` merely to save those few characters. Repetition alone does not justify an alias for such a short expression. Prefer a direct calculation in the original quantities over a chain of intermediate assignments. Apply this when reviewing inherited notation as well as when drafting. Retain variables that have an independent mathematical role, such as a quantified parameter, an integration variable or an object being constructed; this rule targets shorthand, not necessary mathematics. A fraction or a longer expression does not automatically justify an abbreviation either. Preserve dependencies, scope and grouping when substituting an expression back into the proof. See [references/language-and-rhythm.md](references/language-and-rhythm.md).
 
@@ -115,6 +123,7 @@ Compare the revision with the source, not just with how fluent the revision soun
 8. Are the core models formally defined before use, body theorems adjacent to their proofs, and local headings and example counters consistent with the argument? Does every symbolic assignment use `:=`, with identities and characterising equations still using `=`?
 9. Does each theorem state its final substantive conclusion concisely, with independently important intermediate conclusions moved to lemmas? Are all definitions outside result statements, using `:=` where symbolic and a Definition environment when important, with hypotheses and well-definedness preserved?
 10. For an illustrated derivation, does each step explain an actual operation and sit beside its figure? Do symbols, coordinates, scales and arrow directions agree with the algebra, and does each figure add information? If a lemma closes the derivation, have the preceding steps proved its full statement without a duplicate proof?
+11. Are result-heading brackets reserved for external attribution, captions concise, and overview tables consistent with the definitions and validity claims below them? Have faithful-translation details, author comments, retained source passages and explicit section exclusions been respected?
 
 Check touched LaTeX cross-references or compile when the source and suitable tools are available and the change warrants it. Report only checks actually performed. A successful compile does not verify mathematics.
 
