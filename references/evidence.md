@@ -90,3 +90,7 @@ The linked [paper's introduction](https://arxiv.org/html/2603.13798v3#S1) was re
 ## Clarification: one results subsection and flexible subdivision, 2026-09-11
 
 The author clarified that the introduction should collect its main results in one subsection, following the order of the body sections, and that three subsections per section must not be treated as a target. This supersedes any interpretation of the earlier subsection guideline as a fixed template; the maximum of five remains. The [Main results subsection of P2](https://arxiv.org/html/2603.13798v3#S1.SS3) was reread: it presents graph results from Section 2, diffusion results from Section 3, and the random-model result from Section 4 in one connected overview. Its body sections use different subsection counts. These observations support the explicit preference and do not require copying the exemplar's topics, theorem count or full introduction structure.
+
+## Author feedback on titles and abstracts, 2026-10-08
+
+The author explicitly strongly dislikes excessive detail in titles and abstracts because it increases reading effort and reduces rhetorical force. The skill now prioritises concise framing, keeps technical distinctions in the body unless essential to a truthful summary, and explicitly protects author-selected titles from silent changes during terminology edits. This records a reusable writing preference without reproducing manuscript passages or conversation transcripts.

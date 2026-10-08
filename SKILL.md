@@ -25,6 +25,12 @@ If the input is an entire manuscript, inspect its overall structure, main claims
 
 When rebuilding a manuscript from an older version, map its still-valid material into the agreed outline before deleting or rewriting passages. Preserve an author-selected introduction and other intentional prose. Respect sections and language versions excluded from the edit. For source recovery and direct edits to a shared manuscript, read the corresponding guidance in [references/argument-and-proof.md](references/argument-and-proof.md).
 
+### Titles and abstracts: concise, forceful, and author-led
+
+The author strongly dislikes excessive technical detail in titles and abstracts: it tires the reader and weakens the impact of the main message. Prefer a short, readable statement of the subject and central result. Do not turn these passages into compressed theorem statements by accumulating qualifiers, specialist terminology, definitions or observation conventions. Put technical distinctions and full hypotheses in the introduction or body, retaining only the qualification needed to avoid a materially false or misleading claim. Concision does not license exaggeration.
+
+Preserve an author-selected title. A request to unify terminology, translate the manuscript or improve technical precision does not authorise adding qualifiers to the title or silently narrowing its wording. If the title genuinely needs a substantive change, explain the issue and propose it separately; do not apply it without the author's explicit direction. In abstracts, preserve the author's concise framing and rhetorical force rather than automatically expanding it for completeness. The five-sentence ceiling below is not a target, and sentence count alone does not excuse dense, overloaded prose.
+
 ### Author's manuscript structure
 
 Apply these explicit author preferences when drafting or substantively revising a complete paper. Apply the relevant rule to an abstract or introduction supplied alone; do not invent missing sections, results or assets for an excerpt. An explicit light-edit contract or the user's current instructions take precedence.
@@ -124,6 +130,8 @@ Compare the revision with the source, not just with how fluent the revision soun
 9. Does each theorem state its final substantive conclusion concisely, with independently important intermediate conclusions moved to lemmas? Are all definitions outside result statements, using `:=` where symbolic and a Definition environment when important, with hypotheses and well-definedness preserved?
 10. For an illustrated derivation, does each step explain an actual operation and sit beside its figure? Do symbols, coordinates, scales and arrow directions agree with the algebra, and does each figure add information? If a lemma closes the derivation, have the preceding steps proved its full statement without a duplicate proof?
 11. Are result-heading brackets reserved for external attribution, captions concise, and overview tables consistent with the definitions and validity claims below them? Have faithful-translation details, author comments, retained source passages and explicit section exclusions been respected?
+
+12. Are the title and abstract concise, easy to read and forceful, without unnecessary technical qualifiers? Has the author-selected title been preserved unless a change was explicitly authorised?
 
 Check touched LaTeX cross-references or compile when the source and suitable tools are available and the change warrants it. Report only checks actually performed. A successful compile does not verify mathematics.
 
