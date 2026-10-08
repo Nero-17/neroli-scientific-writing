@@ -14,6 +14,18 @@ This is a relationship between ideas, not a mandatory section order. An introduc
 
 The explanation of a hypothesis should say what breaks without it. If the supplied argument does not establish necessity, describe where the hypothesis is used instead of calling it necessary. Separate convenience of presentation from mathematical necessity.
 
+### Keep the section's destination visible
+
+Give a substantive section a mathematical job and a recognisable culminating result. Consolidate preliminary observations when they form one argument; retain a special family only when it tests a mechanism, establishes a needed case, or explains a boundary. A technically interesting subfamily can still distract from a global question. Do not pad a proof or retain side results merely to make a section look difficult, and do not remove a prerequisite because its later use is unobtrusive. Check downstream references before cutting.
+
+An opening can simply recall previously established quantities and explain the next question. Do not create a subsection just for a short recall or repeat the full formal theorem before its eventual statement. A concrete example may open the argument when it reveals the mechanism; return to it after the general result only if the reader gains something new.
+
+A useful progression is a positive criterion, a precise uncovered case, and the question whether that case reflects a limitation of the proof or occurs in actual models. Use this when the mathematics supports it. It is not a requirement to manufacture suspense, conceal a known counterexample, or impose the order in which the research happened. Select main-results statements for their role in the paper, not to give every section an equal number of theorems.
+
+Ancillary observables with conditional existence can move to an appendix when the main classification uses other quantities. Leave a brief, accurate statement of their status and a pointer in the body; do not imply unconditional coverage. Conversely, keep a short calculation in the body when it directly explains the central mechanism. Neither all conditional results nor all computations belong in appendices.
+
+For a computer-assisted construction, retain the construction idea, essential identities, exact checks and the logical implication from a successful check to the theorem in the paper. A repository can hold large allocations, certificates, verifier code and reproducible instructions; it must not become an unexplained substitute for the argument. When the author requests a clean supplementary repository, omit intermediate round logs and unrelated process records. Publishing a manuscript copy or pinning a particular revision follows the author's explicit choice, not an automatic writing rule.
+
 ### Subsection openings from the author's notes
 
 An outline such as “a natural question is ...; we can approach it through ...; finally we prove ...” specifies a logical progression. Fill in the actual question left by the preceding result, identify the concrete mechanism used by the proof, and state the resulting conclusion. For a converse, make clear which implication remains to be established. Merely announcing that the next result is important does not supply a mechanism.
@@ -97,9 +109,11 @@ A compact opening table can orient the reader across observables and regimes. It
 
 When comparing a new manuscript with prior work, use the original theorem statements and relevant definitions, not the abstract or a familiar symbol alone. Match model assumptions, observables, conditioning, counting conventions and conclusion strength. An identical formula under a different sampling law may require a comparison lemma; equality of growth rates does not establish equality or similarity of the underlying matrices.
 
-Separate direct reuse, a reformulation, a genuine extension and a remaining proof obligation. Give the exact theorem or equation citation for a reused result. Do not claim novelty merely from a new name, notation or packaging, and do not call something an extension from a special model if the cited work already treats the general case. Conversely, the absence of a result in one paper does not establish literature-wide priority.
+Separate direct reuse, a reformulation, a genuine extension and a remaining proof obligation. Give the exact theorem or equation citation where needed to identify a proof input. A concise comparison such as `Also see \cite{source}` need not have a result number when the author requests it and the relationship is clear; do not force detailed locators into every heading. Keep a necessary locator in the proof or nearby prose. Do not claim novelty merely from a new name, notation or packaging, and do not call something an extension from a special model if the cited work already treats the general case. Conversely, the absence of a result in one paper does not establish literature-wide priority.
 
-For the author's own results, omit the optional descriptive title in `\begin{theorem}`, `\begin{lemma}`, `\begin{proposition}` and `\begin{corollary}`. Explain their role in the preceding prose. Only a result attributed to other authors may use the optional heading for that attribution; include a verified citation and result number when available. A modification or corollary proved in the present paper should normally cite its input in the prose or proof, with an unnamed result heading. Preserve internal labels and introduction numbering when removing a descriptive heading.
+For the author's own results, omit the optional descriptive title in `\begin{theorem}`, `\begin{lemma}`, `\begin{proposition}` and `\begin{corollary}`. Explain their role in the preceding prose. Optional result headings are for external attribution or an explicitly requested comparison or generalisation credit, not descriptive names. Verify the stated relationship; "Also see" does not mean "proved there in identical generality". Definitions omit descriptive optional headings as well, with attribution in the text. Preserve internal labels and introduction numbering when removing a descriptive heading.
+
+Separate a historical physical observation from a new rigorous theorem, and a deterministic surrogate from a probabilistic model with a specified law. Numerical agreement, a calibrated approximation and a theorem relating the models have different evidential roles. Credit earlier insight even if its method differs from the present proof. When asking whether a claim is new, neither matching numbers nor different notation resolves the question. If a combined theorem contains both previously known and new conclusions with separate arguments, splitting it can make the contribution and attribution clear.
 
 ## Revise a proof by its dependencies
 
@@ -144,6 +158,10 @@ An appendix consisting of a directly relevant calculation can instead become an 
 When a result supplies the next section's input, explain that dependency concretely. When it settles only part of the motivating question, say which part. Keep the unresolved extension visibly unresolved.
 
 Conditional formal verification remains conditional: distinguish encoded statements, assumed external inputs, and conclusions derived from them. Do not convert a manuscript's report of verification into an independent verification claim by the editor.
+
+For a final Discussion, explain what the results change in the physical or mathematical picture before listing future directions. Distinguish failure of sufficiency from failure of necessity, an obstruction to one family of classifiers from the impossibility of any classification, and a property of a single model from a counterexample involving a pair. Do not turn a suggestive name into a stronger physical claim: incompatible discrete rescaling factors, for example, do not by themselves negate scale invariance.
+
+Formulate a few concrete open problems about what the present invariants fail to detect or what additional observations might distinguish. Keep them recognisably open, and do not invent technical conjectures for rhetorical effect. An author-supplied final sentence expressing belief in a deeper classification or understanding can retain its personal tone; mark it as belief rather than an established conclusion. Avoid replacing it with a generic recap or promising an unsupported solution.
 
 ## Empirical-science extension
 

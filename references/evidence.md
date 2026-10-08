@@ -94,3 +94,15 @@ The author clarified that the introduction should collect its main results in on
 ## Author feedback on titles and abstracts, 2026-10-08
 
 The author explicitly strongly dislikes excessive detail in titles and abstracts because it increases reading effort and reduces rhetorical force. The skill now prioritises concise framing, keeps technical distinctions in the body unless essential to a truthful summary, and explicitly protects author-selected titles from silent changes during terminology edits. This records a reusable writing preference without reproducing manuscript passages or conversation transcripts.
+
+## Author feedback consolidated from the manuscript conversation, 2026-10-09
+
+The author requested a comparison of the accumulated editing feedback with this public skill. Already represented preferences, including short abstracts and captions, faithful translation, recovery of older prose, explicit notation, and defining observables before classification, are retained rather than duplicated.
+
+**Explicit preferences added or clarified:** omit descriptive optional headings from definitions as well as results; avoid bold stage headings in short proofs, reserving them for genuinely long arguments; keep the measured object in dimension notation; allow concise "Also see" comparisons without forcing a theorem number into every heading; prefer ordinary top/bottom floats over blanket fixed placement when page flow improves. Requests for compact enumerated definitions and clearer graph layouts support the associated presentation guidance.
+
+**Repeated author choices supporting broader guidance:** sections should reach a recognisable central result rather than accumulate peripheral subfamilies or routine conclusions; brief recalls need not become separate subsections; ancillary conditional observables can be moved to an appendix; the body should explain the mechanism while large computational records live in a clean supporting repository. These choices are conditional on the argument and editing scope. The paper's particular theorem count, section count, page targets, selected observables, appendix location and repository layout are not universal prescriptions.
+
+**Explicitly requested emphasis:** explain the physical significance of the mathematics, make a substantive connection between fields visible, preserve justified negative conclusions, and use the final discussion for concrete open questions and an author-supplied personal belief. The scope checks concerning necessary versus sufficient conditions, a single example versus a pair, historical insight versus a new theorem, and numerical approximation versus a proved model relation are editorial safeguards. They are not additional claims about the correctness or novelty of the research discussed.
+
+Only reusable writing preferences and their scope are recorded here. No private email, manuscript text, correspondence identity, research transcript or project file is published, and no additional paper is added to the style corpus. This update does not claim a new independent behavioural evaluation.

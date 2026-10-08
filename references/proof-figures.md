@@ -54,4 +54,8 @@ Generate exact constructions from their coordinates or maps using maintainable v
 
 Inspect the rendered manuscript at its intended reading size, including the placement of each explanation and figure. Check clipping, overlapping labels, arrowheads, faint context and the consistency of text, captions and assets. Do not claim a visual inspection or successful compilation when only source files were examined.
 
+In graph diagrams, distinguish an edge crossing from a vertex and avoid accidental crossings where a clear layout is possible. Simple straight segments, visible vertices and consistent colours often explain a replacement rule better than a decorative embedding. Check that an illustrated iteration actually follows the rule. A small inline graph can explain an elementary object more efficiently than a new standalone figure; use maintainable vector or TikZ sources where appropriate.
+
 Check page flow as well: avoid unexplained blank areas created by oversized floats or unnecessary forced placement, keep each explanation near its figure, and verify numbering and references after moving or deleting material. A figure that is clear as a standalone image must still be readable at its actual manuscript size.
+
+Prefer normal top/bottom float placement to blanket `[H]` placement when it improves page flow, while respecting a specifically requested fixed position. Compact multi-part definitions may use an economical numbered list and modest font adjustment; do not sacrifice readability merely to save vertical space. Remove an overview table when it adds no useful comparison rather than retaining it as a required decoration.

@@ -20,6 +20,8 @@ Use short transitions to orient the reader after a long derivation. Prefer a spe
 
 Headings and lists help with genuine cases, distinct hypotheses, or comparable regimes. Do not break a continuous proof into a checklist merely because the editor used a checklist internally.
 
+In particular, avoid repeated bold "Step" headings in short proofs. The author's explicit preference is continuous prose for a proof of roughly half a page or less, with bold stages reserved for genuinely long proofs, typically over a page, when they clarify the reasoning. A short proof may still distinguish necessary cases. Do not inflate it to justify headings or count sentences at the expense of a complete argument.
+
 ## Preserve conviction without promotion
 
 Keep justified statements definite. A theorem need not become tentative because the prose is modest. Conversely, numerical evidence and a conjectured extension need their original status.
@@ -27,6 +29,8 @@ Keep justified statements definite. A theorem need not become tentative because 
 Preserve an intentional contrast that explains a mathematical difference, an unexpected outcome, or an author's position. Do not manufacture a dramatic contrast where none is needed. Descriptive analogies are optional and must make the mechanism easier to understand.
 
 Delete promotional wording when it contributes no scientific information. Do not infer an absolute word ban from a single awkward sentence: a word such as “novel” or “robust” can be appropriate when a concrete novelty or robustness claim is supported. Never insert a claim simply to replace the adjective with a longer justification.
+
+The author values physical interpretation and a clear connection between fields. If a number-theoretic theorem supplies a criterion for a physical classification problem, explain that actual reduction rather than merely naming the theorem or claiming that it solves the whole problem. It can appear briefly in the abstract, as motivation in the main-results overview, and with its scope in the body; each occurrence should do a different job. These are possible placements, not a required repetition count. Preserve forceful language such as "disprove" for a conjecture genuinely refuted, while retaining the exact model class and logical claim.
 
 ## Control notation without erasing it
 
@@ -37,6 +41,8 @@ Minimise intermediate variables in proofs. Prefer showing the calculation with i
 When simplifying notation, compare every use and dependency. In particular, a constant may depend on a point while remaining independent of the scale. Cosmetic renaming must not conceal this difference.
 
 Count the reader's work of recalling an alias, not just the characters saved. In a geometric calculation, retaining the original displacement and vertex vectors can expose the operation that a correction-term abbreviation would hide. A transformed displacement with its own role may still deserve a symbol. When the author asks to remove an alias throughout a paper, inspect prose, statements, proofs, captions and figure sources; expand that alias consistently without removing unrelated symbols that happen to use the same letter.
+
+Write the object measured by a dimension explicitly, including in introduction restatements. An ambient space and a random cluster must not become interchangeable through bare dimension symbols. Prefer the full expression for a spectral radius or derivative to a new alias introduced only to shorten the page; preserve a necessary independently varying parameter.
 
 For geometric displacement and position vectors, prefer visible vector arrows such as `\vec c` and `\vec p_i`, consistently in prose, formulas and figures. Distinguish these from scalar angles, indices and linear maps. This convention does not turn every bold symbol into a vector arrow or override an explicit notation-preservation request; retain `\mathbf` for upright bold notation where appropriate.
 
