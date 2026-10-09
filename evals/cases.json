@@ -96,7 +96,7 @@
       "Restate the actual pointwise theorem, using a forward reference to thm:convergence rather than a new introduction theorem counter or a hard-coded number.",
       "Do not upgrade pointwise convergence to uniform convergence.",
       "Plan a mathematically faithful DHL figure in the introduction, including its undirected interpretation; do not pretend a missing asset was supplied or rendered.",
-      "Group Section 2 into the coherent subsections its argument needs, at most five; do not target three or merely demote all seven headings. Keep estimates and proof steps."
+      "Prefer grouping Section 2 into at most three coherent subsections, each preferably at least three typeset pages; do not require exactly three, pad prose, or merely demote all seven headings. Keep estimates and proof steps, allow justified exceptions, and mark page length unverified because no layout is supplied."
     ]
   },
   {
